@@ -1,2 +1,2 @@
-# Leetcode practice yo
-leetcode practice solutions yo 
+# Leetcode practice 
+leetcode practice solutions 
