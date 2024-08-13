@@ -1,0 +1,4 @@
+Use HashSet to keep track of if a value was already seen in a list.
+Use int[] to keep track of chars count by storing the COUNT for 'a' on 0 index and 'b' on 1 index. use [(int)c - (int)'a']
+If you know the expected value of variable you are finding. Consider using Dictionary to keep track if we have seen the expected value before.
+If you want the result set to be grouped, find a way to calculate common key value and store the items on same key in a list.
