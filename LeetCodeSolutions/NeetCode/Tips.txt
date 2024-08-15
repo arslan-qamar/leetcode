@@ -4,3 +4,5 @@ If you know the expected value of variable you are finding. Consider using Dicti
 If you want the result set to be grouped, find a way to calculate common key value (it can be common freq count, hashcode etc) and store the items on same key in a list.
 Use Prefix and Postfix array for the number you want to exclude from a total result in an array for any math operation (Product except self)
 If you want to Subbox a 2d array , do row/subboxsize, col/subboxsize to get the subbox overlay index.
+For Sequence based questions like finding longest sequence , find logic to find the start of sequence. e.g: 2 is a start if there is no 1 in the list (use hashset for quick lookup)
+For palidrome checking use two pointer till l < r and make sure there are no out of bound issues in code, be defensive.

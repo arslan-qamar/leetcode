@@ -2,9 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/LeetCodeSolutions/.vs/LeetCodeSolutions/DesignTimeBuild
-/LeetCodeSolutions/.vs/LeetCodeSolutions/v17
-/LeetCodeSolutions/bin/Debug/net7.0
+/LeetCodeSolutions/.vs/*
+/LeetCodeSolutions/bin
 /LeetCodeSolutions/obj
 /LeetCodeSolutionsTests/obj
-/LeetCodeSolutionsTests/bin/Debug/net7.0
+/LeetCodeSolutionsTests/bin
