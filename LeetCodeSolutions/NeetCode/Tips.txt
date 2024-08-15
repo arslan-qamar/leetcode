@@ -6,3 +6,6 @@ Use Prefix and Postfix array for the number you want to exclude from a total res
 If you want to Subbox a 2d array , do row/subboxsize, col/subboxsize to get the subbox overlay index.
 For Sequence based questions like finding longest sequence , find logic to find the start of sequence. e.g: 2 is a start if there is no 1 in the list (use hashset for quick lookup)
 For palidrome checking use two pointer till l < r and make sure there are no out of bound issues in code, be defensive.
+THREESUM problem is trickier than two sum sorted problem. (REVISE) 
+	Sort list and then use Two sum variation, trick is to make outer selection and internally keep moving left and right once sum is found to find other answers. 
+	Use hashset to not add duplicates
