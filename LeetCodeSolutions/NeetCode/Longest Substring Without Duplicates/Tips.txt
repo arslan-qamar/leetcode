@@ -1,0 +1,3 @@
+Use Hashset to track characters in current substring and if the current right character is found in hashset (duplicate), 
+then keep moving the left index and removing the entries of left index from hashset until the the right character is also removed from hashset. 
+keep updating the result with r - l + 1
