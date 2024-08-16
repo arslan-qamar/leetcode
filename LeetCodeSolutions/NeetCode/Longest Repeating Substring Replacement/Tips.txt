@@ -1,0 +1,3 @@
+The idea is to replace the most frequent item in the window.
+A window is valid if windowsize - mostfreq <= k , update largestwindowsize and move r++ in loop
+If window not valid , move l++ and decrement the counters tile window is valid <- do while(windowsize - mostfreq > k)
