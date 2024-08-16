@@ -1,0 +1,1 @@
+Use Prefix and Postfix array for the number you want to exclude from a total result in an array for any math operation (Product except self)

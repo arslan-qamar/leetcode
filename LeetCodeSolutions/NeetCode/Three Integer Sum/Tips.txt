@@ -1,0 +1,3 @@
+THREESUM problem is trickier than two sum sorted problem. (REVISE) 
+	Sort list and then use Two sum variation, trick is to make outer selection and internally keep moving left and right once sum is found to find other answers. 
+	Use hashset to not add duplicates

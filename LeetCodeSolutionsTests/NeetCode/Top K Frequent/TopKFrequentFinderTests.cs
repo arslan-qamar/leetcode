@@ -30,5 +30,13 @@ namespace LeetCodeSolutions.NeetCode.Top_K_Frequent.Tests
 
             result.Should().BeEquivalentTo(new int[] { 1, 2 });
         }
+
+        [TestMethod()]
+        public void TopKFrequentTest123456789()
+        {
+            int[] result = TopKFrequentFinder.TopKFrequent(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, 2);
+
+            result.Should().BeEquivalentTo(new int[] { 1, 2 });
+        }
     }
 }

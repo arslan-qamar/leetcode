@@ -1,0 +1,1 @@
+For palidrome checking use two pointer till l < r and make sure there are no out of bound issues in code, be defensive.

@@ -1,0 +1,1 @@
+Find logic to find the start of sequence. e.g: 2 is a start if there is no 1 in the list (use hashset for quick lookup)
