@@ -1,0 +1,5 @@
+The trick here is to use a Monotinic decreasing Queue. 
+Iterate the array from l=0 and increasing r. Push the element index in monotonic queue (popping the element indexes while their num[index] value is less than nums[r] before push)
+if(r +1 >= windowsize/k) , push the first element in Queue to the output array as its the biggest in the window , increment l
+if(l > the first index value in the queue) , pop first value
+r++
