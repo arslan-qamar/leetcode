@@ -1,0 +1,7 @@
+Track the char count in two [26] length arrays for s1 and s2 and track the MATCHES between them at start.
+
+Start the iteration from window size and move the window one by one, until we reach the end of S2 or MATCHES == 26
+decrement the left char count and if the count is now same in both S1 and S2 then increment otherwise if the count earlier was same in s1 and s2 then decrement the MATCHES
+increment the new right char count and if the count is now same in both S1 and S2 then increment otherwise if the count earlier was same in s1 and s2 then decrement the MATCHES
+
+return MATCHES = 26 (S1 and S2 count maps are same)

@@ -1,0 +1,7 @@
+Keep character count of target string
+start with window size of 0 and track character count and matched counts, keep increasing R till matched counts == target counts
+update the minimumknownWindow size and keep moving L to reduce window size until  matched counts != target counts also updating the character counts for current window
+increment r
+
+
+return the substring if there is value for l,r. Otherwise return empty.
