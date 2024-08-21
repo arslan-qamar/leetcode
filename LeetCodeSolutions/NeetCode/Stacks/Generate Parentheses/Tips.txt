@@ -1,0 +1,4 @@
+﻿The trick is to use recursion and a stack with following conditions : 
+            // if openC == closeC == n, append stack.reverse in result list<string>
+            // if openC < n , append ( , pop
+            // if closeC < openC, append ) , pop
