@@ -1,0 +1,3 @@
+Use decreasing Monotonic Deque to keep track of temps indexes 
+when there is pop from queue (last value < currentvalue) update the result using the index stored and difference with current index
+return the result easy peasy.
