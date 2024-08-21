@@ -1,0 +1,3 @@
+Store the current minimum value in a Tuple along with the Main value
+when poping a value , update the current minimum if needed
+Make sure the stack is not empty before performing operations
