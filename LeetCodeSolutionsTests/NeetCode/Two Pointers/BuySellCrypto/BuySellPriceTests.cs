@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.BuySellCrypto.Tests
+namespace BuySellCrypto
 {
     [TestClass()]
     public class BuySellPriceTests

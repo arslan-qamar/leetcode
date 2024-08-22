@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Encode_Decode_Strings.Tests
+namespace Encode_Decode_Strings
 {
     [TestClass()]
     public class EncodeDecodeTests

@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Valid_Parentheses
+﻿namespace Valid_Parentheses
 {
     public class ValidParentheses
     {

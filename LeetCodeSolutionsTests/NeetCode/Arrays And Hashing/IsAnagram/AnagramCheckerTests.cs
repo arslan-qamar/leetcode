@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.IsAnagram.Tests
+namespace IsAnagram
 {
     [TestClass()]
     public class AnagramCheckerTests

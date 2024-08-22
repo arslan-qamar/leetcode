@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.AnagramGroup
+﻿namespace AnagramGroup
 {
     public class GroupAnagram
     {

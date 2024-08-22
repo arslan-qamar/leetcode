@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Product_Exclude_Self.Tests
+namespace Product_Exclude_Self
 {
     [TestClass()]
     public class ProductExcludeSelfTests

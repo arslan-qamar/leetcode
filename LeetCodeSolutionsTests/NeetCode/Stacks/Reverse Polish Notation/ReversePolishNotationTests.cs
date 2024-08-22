@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Reverse_Polish_Notation.Tests
+namespace Reverse_Polish_Notation
 {
     [TestClass()]
     public class ReversePolishNotationTests

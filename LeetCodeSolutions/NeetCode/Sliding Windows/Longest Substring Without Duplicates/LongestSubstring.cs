@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Longest_Substring_Without_Duplicates
+﻿namespace Longest_Substring_Without_Duplicates
 {
     public class LongestSubstring
     {

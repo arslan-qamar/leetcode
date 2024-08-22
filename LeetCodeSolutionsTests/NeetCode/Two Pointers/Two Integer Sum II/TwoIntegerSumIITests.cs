@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Two_Integer_Sum_II.Tests
+namespace Two_Integer_Sum_II
 {
     [TestClass()]
     public class TwoIntegerSumIITests

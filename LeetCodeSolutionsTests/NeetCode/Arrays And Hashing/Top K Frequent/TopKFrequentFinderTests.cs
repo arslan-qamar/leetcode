@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Top_K_Frequent.Tests
+namespace Top_K_Frequent
 {
     [TestClass()]
     public class TopKFrequentFinderTests

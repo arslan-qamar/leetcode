@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Stacks.Generate_Parentheses
+﻿namespace Stacks.Generate_Parentheses
 {
     public class GenerateParentheses
     {

@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Permutation_In_String
+﻿namespace Permutation_In_String
 {
     public class PermutationString
     {

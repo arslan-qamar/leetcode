@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Product_Exclude_Self
+﻿namespace Product_Exclude_Self
 {
     public class ProductExcludeSelf
     {

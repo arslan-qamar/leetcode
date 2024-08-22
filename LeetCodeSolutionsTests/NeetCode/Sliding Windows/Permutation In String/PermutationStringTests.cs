@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Permutation_In_String.Tests
+namespace Permutation_In_String
 {
     [TestClass()]
     public class PermutationStringTests

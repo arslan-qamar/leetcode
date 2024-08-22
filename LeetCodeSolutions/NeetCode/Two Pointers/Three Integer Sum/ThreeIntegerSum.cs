@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Three_Integer_Sum
+﻿namespace Three_Integer_Sum
 {
     public class ThreeIntegerSum
     {

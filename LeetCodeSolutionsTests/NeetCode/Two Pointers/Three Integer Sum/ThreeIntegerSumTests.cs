@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 
-namespace LeetCodeSolutions.NeetCode.Three_Integer_Sum.Tests
+namespace Three_Integer_Sum
 {
     [TestClass()]
     public class ThreeIntegerSumTests

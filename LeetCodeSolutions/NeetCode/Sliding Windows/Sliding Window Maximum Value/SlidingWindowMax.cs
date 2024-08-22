@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Sliding_Window_Maximum_Value
+﻿namespace Sliding_Window_Maximum_Value
 {
     public class SlidingWindowMax
     {

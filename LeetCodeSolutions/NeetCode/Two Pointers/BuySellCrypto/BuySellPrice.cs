@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.BuySellCrypto
+﻿namespace BuySellCrypto
 {
     public class BuySellPrice
     {

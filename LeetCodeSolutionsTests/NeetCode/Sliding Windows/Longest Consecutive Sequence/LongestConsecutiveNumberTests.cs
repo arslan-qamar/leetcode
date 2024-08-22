@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Longest_Consecutive_Sequence.Tests
+namespace Longest_Consecutive_Sequence
 {
     [TestClass()]
     public class LongestConsecutiveNumberTests

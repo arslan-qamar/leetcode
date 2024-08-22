@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Minimum_Window_With_Characters
+﻿namespace Minimum_Window_With_Characters
 {
     public class MinimumWindowWithCharacters
     {

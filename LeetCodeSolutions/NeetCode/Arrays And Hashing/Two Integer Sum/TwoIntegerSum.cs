@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Two_Integer_Sum
+﻿namespace Two_Integer_Sum
 {
     public class TwoIntegerSum
     {

@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace LeetCodeSolutions.NeetCode.Encode_Decode_Strings
+namespace Encode_Decode_Strings
 {
     public class EncodeDecode
     {

@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Reverse_Polish_Notation
+﻿namespace Reverse_Polish_Notation
 {
     public class ReversePolishNotation
     {

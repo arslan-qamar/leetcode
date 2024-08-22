@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Two_Integer_Sum.Tests
+namespace Two_Integer_Sum
 {
     [TestClass()]
     public class TwoIntegerSumTests

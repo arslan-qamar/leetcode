@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Min_Stack
+﻿namespace Min_Stack
 {
     public class MinStack
     {

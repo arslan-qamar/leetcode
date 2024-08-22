@@ -1,6 +1,6 @@
 ﻿using System.Collections.Immutable;
 
-namespace LeetCodeSolutions.NeetCode.Top_K_Frequent
+namespace Top_K_Frequent
 {
     public class TopKFrequentFinder
     {

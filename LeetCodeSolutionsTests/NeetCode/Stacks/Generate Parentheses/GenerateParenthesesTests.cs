@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Stacks.Generate_Parentheses.Tests
+namespace Stacks.Generate_Parentheses
 {
     [TestClass()]
     public class GenerateParenthesesTests

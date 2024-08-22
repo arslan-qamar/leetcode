@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Stacks.Largest_Rectangle_Histogram.Tests
+namespace Largest_Rectangle_Histogram
 {
     [TestClass()]
     public class LargestRectangleHistogramFinderTests

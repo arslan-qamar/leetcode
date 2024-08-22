@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Duplicate_Integer
+﻿namespace Duplicate_Integer
 {
     public class DuplicateInteger
     {

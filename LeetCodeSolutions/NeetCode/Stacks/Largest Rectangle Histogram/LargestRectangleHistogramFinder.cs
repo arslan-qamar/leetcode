@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Stacks.Largest_Rectangle_Histogram
+﻿namespace Largest_Rectangle_Histogram
 {
     public class LargestRectangleHistogramFinder
     {

@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Longest_Repeating_Substring_Replacement.Tests
+namespace Longest_Repeating_Substring_Replacement
 {
     [TestClass()]
     public class LongestRepeatingSubstringReplaceTests

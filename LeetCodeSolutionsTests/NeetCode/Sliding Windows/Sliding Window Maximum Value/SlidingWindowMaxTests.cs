@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Sliding_Window_Maximum_Value.Tests
+namespace Sliding_Window_Maximum_Value
 {
     [TestClass()]
     public class SlidingWindowMaxTests

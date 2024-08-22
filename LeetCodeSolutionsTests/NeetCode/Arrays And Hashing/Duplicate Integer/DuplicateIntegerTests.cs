@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Duplicate_Integer.Tests
+namespace Duplicate_Integer
 {
     [TestClass()]
     public class DuplicateIntegerTests

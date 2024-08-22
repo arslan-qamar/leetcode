@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Sudoku_Validator.Tests
+namespace Sudoku_Validator
 {
     [TestClass()]
     public class SudokuValidatorTests

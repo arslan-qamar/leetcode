@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Max_Water_Container
+﻿namespace Max_Water_Container
 {
     public class MaxWaterContainerCalculator
     {

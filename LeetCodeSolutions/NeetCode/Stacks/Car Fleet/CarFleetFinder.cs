@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Stacks.Car_Fleet
+﻿namespace Stacks.Car_Fleet
 {
     public class CarFleetFinder
     {

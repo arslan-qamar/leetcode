@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Stacks.Car_Fleet.Tests
+namespace Stacks.Car_Fleet
 {
     [TestClass()]
     public class CarFleetFinderTests

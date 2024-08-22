@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Longest_Repeating_Substring_Replacement
+﻿namespace Longest_Repeating_Substring_Replacement
 {
     public class LongestRepeatingSubstringReplace
     {

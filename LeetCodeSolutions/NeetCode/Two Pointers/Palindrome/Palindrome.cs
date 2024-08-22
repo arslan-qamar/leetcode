@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Palindrome
+﻿namespace Palindrome
 {
     public class Palindrome
     {

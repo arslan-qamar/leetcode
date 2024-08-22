@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.IsAnagram
+﻿namespace IsAnagram
 {
     public class AnagramChecker
     {

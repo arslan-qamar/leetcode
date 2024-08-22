@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Palindrome.Tests
+namespace Palindrome
 {
     [TestClass()]
     public class PalindromeTests

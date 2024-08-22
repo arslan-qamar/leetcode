@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.AnagramGroup.Tests
+namespace AnagramGroup
 {
     [TestClass()]
     public class GroupAnagramTests

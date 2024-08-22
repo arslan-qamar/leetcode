@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Binary_Search
+﻿namespace Binary_Search
 {
     public class BinarySearch
     {

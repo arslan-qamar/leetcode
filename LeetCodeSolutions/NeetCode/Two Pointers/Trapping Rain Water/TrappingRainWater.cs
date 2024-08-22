@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Trapping_Rain_Water
+﻿namespace Trapping_Rain_Water
 {
     public class TrappingRainWater
     {

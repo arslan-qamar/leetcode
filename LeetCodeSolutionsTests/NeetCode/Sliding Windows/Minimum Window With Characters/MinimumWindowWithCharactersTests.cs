@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Minimum_Window_With_Characters.Tests
+namespace Minimum_Window_With_Characters
 {
     [TestClass()]
     public class MinimumWindowWithCharactersTests

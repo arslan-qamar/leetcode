@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Trapping_Rain_Water.Tests
+namespace Trapping_Rain_Water
 {
     [TestClass()]
     public class TrappingRainWaterTests

@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Max_Water_Container.Tests
+namespace Max_Water_Container
 {
     [TestClass()]
     public class MaxWaterContainerCalculatorTests

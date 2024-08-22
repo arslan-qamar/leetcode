@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Sudoku_Validator
+﻿namespace Sudoku_Validator
 {
     public class SudokuValidator
     {

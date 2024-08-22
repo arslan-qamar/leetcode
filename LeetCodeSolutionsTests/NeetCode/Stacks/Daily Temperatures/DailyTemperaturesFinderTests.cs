@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Stacks.Daily_Temperatures.Tests
+namespace Daily_Temperatures
 {
     [TestClass()]
     public class DailyTemperaturesFinderTests

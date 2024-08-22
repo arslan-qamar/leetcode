@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Stacks.Daily_Temperatures
+﻿namespace Daily_Temperatures
 {
     public class DailyTemperaturesFinder
     {

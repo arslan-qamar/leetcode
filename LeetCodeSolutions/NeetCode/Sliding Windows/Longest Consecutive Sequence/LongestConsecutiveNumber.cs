@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Longest_Consecutive_Sequence
+﻿namespace Longest_Consecutive_Sequence
 {
     public class LongestConsecutiveNumber
     {
