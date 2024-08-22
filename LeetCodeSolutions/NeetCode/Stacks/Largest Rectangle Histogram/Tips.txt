@@ -1,0 +1,5 @@
+Use a max deque to push the index and height in the deque.
+keep Poping if the element at last is bigger than current height, update the max on pop
+Push the current height with index of current iteration or the element till we poped in step 2 ^
+
+Now the elements left in the deque are the ones that can be extended till the end of the histogram so calculate the area for each and update the maxarea if needed.
