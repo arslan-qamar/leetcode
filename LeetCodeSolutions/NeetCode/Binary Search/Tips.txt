@@ -1,0 +1,9 @@
+Use iterative approach , have a left and right index
+
+while(l <= r)
+{
+	if m > target , r = m - 1
+	if m < target , l = m +1 
+	else return m
+}
+
