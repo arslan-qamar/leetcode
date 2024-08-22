@@ -1,0 +1,6 @@
+Iterate the matrix as a single array using the following r , c formulae :
+
+r = index / cols;
+c = index % cols;
+
+Apply Binary Search on the index and enjoy.
