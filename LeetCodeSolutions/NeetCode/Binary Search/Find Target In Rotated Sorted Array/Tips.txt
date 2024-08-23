@@ -1,0 +1,8 @@
+Use Binary Search to find the target.
+Search in Left if target is less than mid and lies between left and mid OR 
+left is greater than mid which means the switch lies between left and mid and since target is less than mid its definitely in left section: 
+
+	  if (target < nums[m] && (nums[l] < target || nums[l] > nums[m]))
+         {
+             r = m - 1;
+         }
