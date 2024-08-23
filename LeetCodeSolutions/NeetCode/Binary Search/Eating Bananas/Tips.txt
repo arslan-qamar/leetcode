@@ -1,0 +1,1 @@
+BinarySearch the k by calculating the H for each iteration of k in binary search and update the min. Easy Peasy lemon squeezy
