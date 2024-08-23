@@ -1,0 +1,2 @@
+Use Dictionary<string, List<TimeStamp, Value>> 
+Use binary search to get the value for a particular timestamp from stored values as they are stored in sorted order due to set being called in increasing order.
