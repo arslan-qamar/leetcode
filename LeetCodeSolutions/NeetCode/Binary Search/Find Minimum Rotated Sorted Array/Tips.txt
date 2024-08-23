@@ -1,0 +1,8 @@
+Trick is to apply binary search with few key points.
+1. Apply Binary Search.
+2. if nums[l] < nums[r] , then it is the minimum for a start e.g : 1 2 3 4 5 6   vs if it was rotated : 6 1 2 3 4 5 , condition would fails so return nums[l]
+3. Figure which partition of the mid point we need to look at based on following condition
+	if nums[m] >= nums[l]  <- Key point , if mid is bigger than left most value , then right portion would have smaller values so search right portion
+		find in right portion, l = m + 1
+	else
+		find in left portion, r = m - 1
