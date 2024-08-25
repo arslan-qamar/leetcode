@@ -1,0 +1,8 @@
+previous = null
+current = head
+
+while current != null
+	temp = current.next
+	current.previous = previous
+	previous = current 
+	current = temp
