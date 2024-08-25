@@ -1,0 +1,5 @@
+Add a dummy node for left pointer on the linked List
+Offset the right pointer by while(n > 0)
+Now move both the pointer till right pointer is end of the list at null
+left.next = left.next.next;
+return dummy.next
