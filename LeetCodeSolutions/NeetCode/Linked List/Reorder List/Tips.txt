@@ -1,0 +1,5 @@
+Use slow and fast pointer to find the mid of the list and split it in two list by breaking at mid
+Reverse the right half list so can traverse backwards
+while(rightlist is traversed)
+	point leftelement to right and right to leftelementnext
+	move left ahead , move right ahead using tmp variables
