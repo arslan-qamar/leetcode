@@ -1,0 +1,10 @@
+Find the left partition on both arrays such that the size of both is roughly same as half of their total elements and they satisfy this condition
+if (maxLeft1 <= minRight2 && maxLeft2 <= minRight1)
+otherwise decrease r if (maxLeft1 > minRight2)
+else increase l by 1
+
+throw exception at the end , can happen when the array are not sorted propertly.
+
+
+cram it mate its good but tought to get into OOBE , Practice more.
+
