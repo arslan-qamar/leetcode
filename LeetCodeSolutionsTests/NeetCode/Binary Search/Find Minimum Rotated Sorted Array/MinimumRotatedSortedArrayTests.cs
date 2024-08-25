@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Binary_Search.Find_Minimum_Rotated_Sorted_Array.Tests
+namespace Binary_Search.Find_Minimum_Rotated_Sorted_Array.Tests
 {
     [TestClass()]
     public class MinimumRotatedSortedArrayTests

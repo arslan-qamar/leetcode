@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Stacks.Car_Fleet
+namespace Car_Fleet
 {
     [TestClass()]
     public class CarFleetFinderTests

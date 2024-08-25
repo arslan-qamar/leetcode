@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Binary_Search.TimeMap.Tests
+namespace Binary_Search.TimeMap.Tests
 {
     [TestClass()]
     public class TimeMapTests

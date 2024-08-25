@@ -1,4 +1,4 @@
-﻿namespace Stacks.Car_Fleet
+﻿namespace Car_Fleet
 {
     public class CarFleetFinder
     {

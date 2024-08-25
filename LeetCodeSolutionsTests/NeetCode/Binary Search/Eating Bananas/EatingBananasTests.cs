@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Binary_Search.Eating_Bananas.Tests
+namespace Binary_Search.Eating_Bananas.Tests
 {
     [TestClass()]
     public class EatingBananasTests

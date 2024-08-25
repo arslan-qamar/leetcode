@@ -1,0 +1,44 @@
+﻿using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Merge_Two_Sorted_Lists.Tests
+{
+    [TestClass()]
+    public class MergeTwoSortedListsTests
+    {
+        [TestMethod()]
+        public void MergeTwoListsTest()
+        {
+            ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4, null)));
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5, null)));
+
+            MergeTwoSortedLists.MergeTwoLists(list1, list2).Should().BeEquivalentTo(
+                new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, null))))))
+                );
+        }
+
+
+        [TestMethod()]
+        public void MergeTwoListsTest2()
+        {
+            ListNode list1 = new ListNode(1, null);
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5, null)));
+
+            MergeTwoSortedLists.MergeTwoLists(list1, list2).Should().BeEquivalentTo(
+                new ListNode(1, new ListNode(1, new ListNode(3, new ListNode(5, null))))
+                );
+        }
+
+        [TestMethod()]
+        public void MergeTwoListsTest3()
+        {
+            ListNode list1 = null;
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5, null)));
+
+            MergeTwoSortedLists.MergeTwoLists(list1, list2).Should().BeEquivalentTo(
+                new ListNode(1, new ListNode(3, new ListNode(5, null)))
+                );
+        }
+
+    }
+}

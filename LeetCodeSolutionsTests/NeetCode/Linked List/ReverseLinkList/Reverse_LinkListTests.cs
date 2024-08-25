@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.Tests
+namespace Linked_List.Tests
 {
     [TestClass()]
     public class Reverse_LinkListTests

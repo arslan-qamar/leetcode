@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Binary_Search.Find_Minimum_Rotated_Sorted_Array
+﻿namespace Binary_Search.Find_Minimum_Rotated_Sorted_Array
 {
     public class MinimumRotatedSortedArray
     {

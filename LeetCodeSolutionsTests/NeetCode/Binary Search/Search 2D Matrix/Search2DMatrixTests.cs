@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Binary_Search.Search_2D_Matrix.Tests
+namespace Binary_Search.Search_2D_Matrix.Tests
 {
     [TestClass()]
     public class Search2DMatrixTests

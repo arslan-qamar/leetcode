@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Binary_Search.Median_Two_Sorted_Arrays
+﻿namespace Binary_Search.Median_Two_Sorted_Arrays
 {
     public class MedianTwoSortedArrays
     {

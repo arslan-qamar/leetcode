@@ -1,4 +1,4 @@
-﻿namespace Stacks.Generate_Parentheses
+﻿namespace Generate_Parentheses
 {
     public class GenerateParentheses
     {

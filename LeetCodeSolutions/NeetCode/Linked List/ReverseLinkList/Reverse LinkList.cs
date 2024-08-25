@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List
+﻿namespace Linked_List
 {
     public class ListNode
     {

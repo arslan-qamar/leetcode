@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Binary_Search.Eating_Bananas
+﻿namespace Binary_Search.Eating_Bananas
 {
     public class EatingBananas
     {

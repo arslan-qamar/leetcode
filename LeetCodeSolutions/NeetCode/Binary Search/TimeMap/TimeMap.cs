@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Binary_Search.TimeMap
+﻿namespace Binary_Search.TimeMap
 {
     public class TimeMap
     {

@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Binary_Search.Search_2D_Matrix
+﻿namespace Binary_Search.Search_2D_Matrix
 {
     public class Search2DMatrix
     {

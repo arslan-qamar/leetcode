@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Binary_Search.Median_Two_Sorted_Arrays.Tests
+namespace Binary_Search.Median_Two_Sorted_Arrays.Tests
 {
     [TestClass()]
     public class MedianTwoSortedArraysTests

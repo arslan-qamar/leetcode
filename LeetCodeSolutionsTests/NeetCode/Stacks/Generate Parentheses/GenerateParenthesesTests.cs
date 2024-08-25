@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Stacks.Generate_Parentheses
+namespace Generate_Parentheses
 {
     [TestClass()]
     public class GenerateParenthesesTests
