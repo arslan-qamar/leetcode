@@ -1,0 +1,3 @@
+Trick is to store the newly created node with key as old node in a Dictionary<Node,Node> and do dual pass
+1. Create all nodes in one pass and store in dictionary
+2. In second pass if get reference to newly created nodes of original node as key and assign with null safe checking
