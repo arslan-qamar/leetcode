@@ -1,0 +1,4 @@
+Easy peasy with a Hashset but its not that simple as it is O(n) time and O(n) space
+
+It is Floyd's algorithm where you have two pointers slow and fast and when they collide we run another slow2 with slow ptr
+when slow2 and slow collide that is the start of the cycle and we return the output. This takes O(1) times
