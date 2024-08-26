@@ -1,0 +1,7 @@
+Simple logic to add the nodes one by one till both LLs are not null
+Check l1 is null if not add sum and carry 
+Check l2 is null if not add sum and carry 
+
+At the end dont forget to handle left over carry if any.
+
+return the dummy.next of newly created list.
