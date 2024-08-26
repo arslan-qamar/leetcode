@@ -1,0 +1,5 @@
+Trick is to use doubly link list with head and tail nodes as dummy nodes. 
+Dictionary to store the key and Node reference
+Puts will add the new nodes to the tail by removing the node from Link list use dictionary lookup reference
+Gets will remove the node from Link list and move it to the Tail to be considered LRU value
+If Dictionary Count is > Capacity , Remove the key from Dictionary and Node from LinkList Right (Head.Next)
