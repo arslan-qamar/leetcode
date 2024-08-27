@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.Add_Two_Numbers.Tests
+namespace Add_Two_Numbers.Tests
 {
     [TestClass()]
     public class LinkedListAddTwoNumbersTests

@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.Add_Two_Numbers
+﻿namespace Add_Two_Numbers
 {
     public class ListNode
     {

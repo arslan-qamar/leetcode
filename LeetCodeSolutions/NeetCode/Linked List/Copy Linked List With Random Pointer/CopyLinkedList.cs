@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.Copy_Linked_List_With_Random_Pointer
+﻿namespace Copy_Linked_List_With_Random_Pointer
 {
     public class Node
     {

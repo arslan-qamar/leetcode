@@ -1,0 +1,14 @@
+iterate R till currK = k - 1 is exhausted;
+
+Use Multiple pointers
+L , R for the sub linklist to be reversed
+LastLinkListStart.Next to point to Start of current reversed sub List which is R
+LastLinkListStart becomes left of current reversed sub List as its the last element
+L = R =  nextListStart
+refresh  currK = k - 1 ; repeat
+
+
+if (previousListEnd != null)
+{
+                previousListEnd.next = left;
+}

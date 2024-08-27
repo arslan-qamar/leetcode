@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.Remove_Node_From_End
+﻿namespace Remove_Node_From_End
 {
     public class ListNode
     {

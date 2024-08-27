@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.DuplicateInteger.Tests
+namespace DuplicateInteger.Tests
 {
     [TestClass()]
     public class DuplicateIntegerTests

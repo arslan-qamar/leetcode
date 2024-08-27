@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.LRU_Cache
+﻿namespace LRU_Cache
 {
     public class LRUCache
     {

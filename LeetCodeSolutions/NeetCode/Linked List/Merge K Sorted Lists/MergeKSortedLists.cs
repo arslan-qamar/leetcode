@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.Merge_K_Sorted_Lists
+﻿namespace Merge_K_Sorted_Lists
 {
     public class MergeKSortedLists
     {

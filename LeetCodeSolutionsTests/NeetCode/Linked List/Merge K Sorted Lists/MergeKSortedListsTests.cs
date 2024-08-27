@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static LeetCodeSolutions.NeetCode.Linked_List.Merge_K_Sorted_Lists.MergeKSortedLists;
+using static Merge_K_Sorted_Lists.MergeKSortedLists;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.Merge_K_Sorted_Lists.Tests
+namespace Merge_K_Sorted_Lists.Tests
 {
     [TestClass()]
     public class MergeKSortedListsTests

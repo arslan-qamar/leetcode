@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.Remove_Node_From_End.Tests
+namespace Remove_Node_From_End.Tests
 {
     [TestClass()]
     public class RemoveNodeFromEndTests

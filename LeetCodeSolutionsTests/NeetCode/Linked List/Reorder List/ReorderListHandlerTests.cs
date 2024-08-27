@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.Reorder_List.Tests
+namespace Reorder_List.Tests
 {
     [TestClass()]
     public class ReorderListHandlerTests

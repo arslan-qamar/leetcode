@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.Reorder_List
+﻿namespace Reorder_List
 {
     public class ListNode
     {

@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Linked_List.Linked_List_Cycle_Detect
+﻿namespace Linked_List_Cycle_Detect
 {
     public class ListNode
     {

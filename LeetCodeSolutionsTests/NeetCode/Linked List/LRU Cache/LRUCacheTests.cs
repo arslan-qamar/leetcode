@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 
-namespace LeetCodeSolutions.NeetCode.Linked_List.LRU_Cache.Tests
+namespace LRU_Cache.Tests
 {
     [TestClass()]
     public class LRUCacheTests
