@@ -1,0 +1,7 @@
+Base case : root == null -> return
+Just swap the left with right node
+
+Invert(root.left)
+Invert(root.right)
+
+return root
