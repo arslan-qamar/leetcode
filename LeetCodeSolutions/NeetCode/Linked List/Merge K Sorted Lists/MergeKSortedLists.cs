@@ -26,20 +26,17 @@
                 return lists[0];
             }
 
-            List<ListNode> mergedList = new List<ListNode>();
-
-            while (lists.Length > 1)
+            int interval = 1;
+            while (lists.Length > interval)
             {
-                mergedList.Clear();
-                for (int i = 0; i < lists.Length; i = i + 2)
+                for (int i = 0; i < lists.Length; i += 2 * interval)
                 {
                     ListNode l1 = lists[i];
-                    ListNode? l2 = i + 1 < lists.Length ? lists[i + 1] : null;
+                    ListNode? l2 = i + interval < lists.Length ? lists[i + interval] : null;
 
-                    mergedList.Add(MergeTwoLists(l1, l2));
+                    MergeTwoLists(l1, l2);
                 }
-
-                lists = mergedList.ToArray();
+                interval *= 2;
             }
 
             return lists.First();

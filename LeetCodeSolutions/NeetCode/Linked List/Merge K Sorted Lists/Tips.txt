@@ -1,0 +1,2 @@
+Same as Merging two linked Lists , check the smart algo where we merge l2 -> l1 in place using curr 
+cut the processing in half by merging ((l1,l2),(l3,l4))  this reduces the 
