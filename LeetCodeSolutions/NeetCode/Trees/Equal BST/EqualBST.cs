@@ -15,28 +15,20 @@
     }
 
     public class EqualBST
-    {
-        static bool result = true;
+    {        
         public static bool IsSameTree(TreeNode p, TreeNode q)
         {
-            if (result == false)
-                return false;
-
-            if (p == q)
+            if (p == null && q == null)
             {
                 return true;
             }
 
-            if ((p == null && q != null) || (p != null && q == null) || p.val != q.val)
+            if (p != null && q != null && p.val == q.val)
             {
-                result = false;
-                return result;
+                return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
             }
-            
-            IsSameTree(p.left, q.left);
-            IsSameTree(p.right, q.right);
 
-            return result;
+            return false;
         }
     }
 }

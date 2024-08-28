@@ -1,5 +1,1 @@
-Assume at start that both trees are equal
-Traverse both trees and if the value for nodes are different set result = false , or if one is null  
-exit early if result set to false
-
-return result
+Traverse both trees and if the value for p and q is equal the DFS left and right which should both be true as well.
