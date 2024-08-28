@@ -1,0 +1,5 @@
+Assume at start that both trees are equal
+Traverse both trees and if the value for nodes are different set result = false , or if one is null  
+exit early if result set to false
+
+return result
