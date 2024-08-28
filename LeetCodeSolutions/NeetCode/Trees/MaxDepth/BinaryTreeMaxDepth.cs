@@ -1,6 +1,6 @@
-﻿using LeetCodeSolutions.NeetCode.Trees.InvertBST;
+﻿using Trees.InvertBST;
 
-namespace LeetCodeSolutions.NeetCode.Trees.MaxDepth
+namespace Trees.MaxDepth
 {
     public class BinaryTreeMaxDepth
     {
