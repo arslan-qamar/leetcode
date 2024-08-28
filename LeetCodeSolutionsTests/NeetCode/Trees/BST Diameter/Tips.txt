@@ -1,0 +1,6 @@
+Height of a node = 1 + Max(Height of Left , Height of Right)
+Diameter of Node = Height of Left , Height of Right
+
+Apply DFS 
+ int left = calculateDiameter(node.left);
+ int right = calculateDiameter(node.right);
