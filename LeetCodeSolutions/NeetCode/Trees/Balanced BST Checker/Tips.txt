@@ -1,0 +1,1 @@
+Assume the tree is balanced and do DFS with Height of left vs Height of Right , if at any point the balance is off , mark the result false and terminate early. SIMPLE
