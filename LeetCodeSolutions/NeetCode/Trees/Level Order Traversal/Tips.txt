@@ -1,0 +1,3 @@
+Use a Queue for BFS traversal 
+use a for loop to process everything in the queue while adding node for the next level
+make sure to not iterate over the queue count due to new additions
