@@ -1,0 +1,4 @@
+Since its a BST , left node val is less than right node, trick is 
+to go right if p , q are bigger than curr
+to go left if p , q are less than curr
+else curr is the split point of nodes (LCA)
