@@ -17,7 +17,7 @@
 
         public static bool IsBalanced(TreeNode root)
         {
-            bool result =true;
+            bool result = true;
 
             int CheckHeights(TreeNode node)
             {

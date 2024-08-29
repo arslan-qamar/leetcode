@@ -15,26 +15,27 @@
     
     public class BinaryTreeMaxDepth
     {
-        private static int MDepth = 0;
+
         public static int MaxDepth(TreeNode root)
         {
-            MaxDepth(root, 0);
-            return MDepth;
-        }
+            int result = 0;
 
-        public static void MaxDepth(TreeNode root, int depth)
-        {
-
-            if (root == null)
+            int calculateHeight(TreeNode node)
             {
-                MDepth = Math.Max(MDepth, depth);
-                return;
+                if (node == null)
+                    return 0;
+
+                int left = calculateHeight(node.left);
+                int right = calculateHeight(node.right);
+
+                result = Math.Max(result, 1 + Math.Max(left, right));
+
+                return 1 + Math.Max(left, right);
             }
 
-            depth++;
+            calculateHeight(root);
 
-            MaxDepth(root.left, depth);
-            MaxDepth(root.right, depth);
+            return result;
         }
     }
 }
