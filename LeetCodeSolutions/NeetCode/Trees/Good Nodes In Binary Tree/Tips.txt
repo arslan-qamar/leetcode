@@ -1,0 +1,4 @@
+Use DFS and keep track of maxSeen , keep count accumulator in the recursive function 
+count=1, when node.val > maxSeen
+count+= find good in left tree  
+count+= find good in right tree  
