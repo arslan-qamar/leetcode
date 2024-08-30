@@ -3,7 +3,7 @@
     public class ListNode
     {
         public readonly int val;
-        public ListNode next;
+        public ListNode? next;
 
         public ListNode(int val = 0, ListNode next = null)
         {
@@ -14,7 +14,7 @@
 
     public class MergeTwoSortedLists
     {
-        public static ListNode MergeTwoLists(ListNode list1, ListNode list2)
+        public static ListNode? MergeTwoLists(ListNode? list1, ListNode? list2)
         {
 
             if (list1 == null && list2 == null)

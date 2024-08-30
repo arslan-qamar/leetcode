@@ -9,11 +9,11 @@ namespace Merge_Two_Sorted_Lists.Tests
         [TestMethod()]
         public void MergeTwoListsTest()
         {
-            ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4, null)));
-            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5, null)));
+            ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5)));
 
             MergeTwoSortedLists.MergeTwoLists(list1, list2).Should().BeEquivalentTo(
-                new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, null))))))
+                new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))))
                 );
         }
 
@@ -21,22 +21,22 @@ namespace Merge_Two_Sorted_Lists.Tests
         [TestMethod()]
         public void MergeTwoListsTest2()
         {
-            ListNode list1 = new ListNode(1, null);
-            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5, null)));
+            ListNode list1 = new ListNode(1);
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5)));
 
             MergeTwoSortedLists.MergeTwoLists(list1, list2).Should().BeEquivalentTo(
-                new ListNode(1, new ListNode(1, new ListNode(3, new ListNode(5, null))))
+                new ListNode(1, new ListNode(1, new ListNode(3, new ListNode(5))))
                 );
         }
 
         [TestMethod()]
         public void MergeTwoListsTest3()
         {
-            ListNode list1 = null;
-            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5, null)));
+            ListNode? list1 = null;
+            ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5)));
 
             MergeTwoSortedLists.MergeTwoLists(list1, list2).Should().BeEquivalentTo(
-                new ListNode(1, new ListNode(3, new ListNode(5, null)))
+                new ListNode(1, new ListNode(3, new ListNode(5)))
                 );
         }
 

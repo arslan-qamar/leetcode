@@ -1,20 +1,10 @@
-﻿namespace Balanced_BST_Checker
+﻿using LeetCodeSolutions.NeetCode.Trees;
+
+namespace Balanced_BST_Checker
 {
     public class BSTBalanceChecker
     {
-        public class TreeNode
-        {
-            public int val;
-            public TreeNode left;
-            public TreeNode right;
-            public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
-            {
-                this.val = val;
-                this.left = left;
-                this.right = right;
-            }
-        }
-
+       
         public static bool IsBalanced(TreeNode root)
         {
             bool result = true;

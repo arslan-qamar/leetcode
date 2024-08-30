@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Trees;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static Level_Order_Traversal.Level_Order_Traversal;
 
 namespace Level_Order_Traversal.Tests
 {

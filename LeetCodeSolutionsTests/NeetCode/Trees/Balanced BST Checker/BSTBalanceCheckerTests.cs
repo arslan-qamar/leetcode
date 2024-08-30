@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Trees;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using static Balanced_BST_Checker.BSTBalanceChecker;
 
 namespace Balanced_BST_Checker.Tests
 {
