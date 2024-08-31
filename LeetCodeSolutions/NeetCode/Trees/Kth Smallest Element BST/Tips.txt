@@ -1,0 +1,1 @@
+Use DFS using stack and decrement k , when k == 0 that node.val is the answer.
