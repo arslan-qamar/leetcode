@@ -1,0 +1,7 @@
+Preorder first element is the root so use it as root
+
+Get the index of first element in inorder array as it tells the elements before it are lefttree elements on inorder array
+Preorder for left tree is skip(1) and take (index) on the preorder array (Skip one as we used first node for root)
+
+the elements after index+1 are righttree elements on in order array
+Preorder for right tree are skip(index+1) on the preorder array (Skip one as we used first node for root)
