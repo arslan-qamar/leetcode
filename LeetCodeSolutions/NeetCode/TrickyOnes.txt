@@ -5,3 +5,13 @@ Trapping Rain Water
 Sliding Window Maximum value
 Generate Parentheses
 Median of Two sorted Arrays.
+LRU Cache
+Reverse LL
+Cycle Detect LL
+Largest Rectangle Histogram
+Reverse Polish Notation
+Car Fleet 
+Invert BST
+Lowest Common Ancestor
+Valide BST or Not
+Right View BST

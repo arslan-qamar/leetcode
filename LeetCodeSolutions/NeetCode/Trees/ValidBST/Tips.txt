@@ -1,0 +1,4 @@
+Naive Approach : Do Inorder traversal of BST and make sure that previous value is lesser than the current value in returned list.
+Smart Approach : Pass left and right boundary for each traversed node and if the condition fails return false.
+-inf < node.left < node.val
+node.val < node.right < +inf
