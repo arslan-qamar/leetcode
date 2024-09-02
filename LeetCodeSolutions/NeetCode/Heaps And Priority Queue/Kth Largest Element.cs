@@ -3,13 +3,11 @@
     public class KthLargest
     {
         private readonly int k;
-        private readonly int[] nums;
         PriorityQueue<int, int> minHeap;
 
         public KthLargest(int k, int[] nums)
         {
             this.k = k;
-            this.nums = nums;
             minHeap = new PriorityQueue<int, int>();
 
             for (int i = 0; i < nums.Length; i++)
