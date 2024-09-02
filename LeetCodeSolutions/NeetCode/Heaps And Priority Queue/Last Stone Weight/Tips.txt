@@ -1,0 +1,2 @@
+Use Max Heap by using -ve priority  and store the difference in the Queue
+Even if it is zero it ll be consumed in the end by a 0 or a number
