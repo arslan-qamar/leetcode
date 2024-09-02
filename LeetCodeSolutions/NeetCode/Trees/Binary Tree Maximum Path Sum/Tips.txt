@@ -1,0 +1,9 @@
+The trick is to use DFS, and pass the MaxPath variable as ref to inner function to keep max updated on recursion.
+
+leftMax , rightMax should stay be Max(0, Dfs(node.direction, ref maxPath)) -> because there is no point adding negative 
+
+return 0 when node is null
+
+maxPath = Max(maxPath , leftMax + rightMax + node.Val);
+
+return node.val + Max(left, right)
