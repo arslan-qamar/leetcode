@@ -1,0 +1,2 @@
+Use MaxHeap (store distance as negative in minheap/priorityqueue) and cap it to k elements and return the elements
+Be careful with calculating the distance with proper () enclosures
