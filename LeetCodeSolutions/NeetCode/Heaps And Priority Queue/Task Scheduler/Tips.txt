@@ -1,0 +1,6 @@
+We have to consume the highest priority tasks first, as that helps with better useage of time and less pauses
+so pop N highest frequency items and decrement their count by 1
+and push them back to maxheap
+
+if maxheap count is still > 0 , then increase the totalCycleCount by n+1
+else increase the totalCycleCount by size of popped items
