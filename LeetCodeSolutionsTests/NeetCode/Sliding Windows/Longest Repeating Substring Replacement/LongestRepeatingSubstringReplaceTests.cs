@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Longest_Repeating_Substring_Replacement
 {
@@ -9,9 +8,9 @@ namespace Longest_Repeating_Substring_Replacement
         [TestMethod()]
         public void CharacterReplacementTest()
         {
-            LongestRepeatingSubstringReplace.CharacterReplacement("XYYX", 2).Should().Be(4);
+            _ = LongestRepeatingSubstringReplace.CharacterReplacement("XYYX", 2).Should().Be(4);
 
-            LongestRepeatingSubstringReplace.CharacterReplacement("AAABABB", 1).Should().Be(5);
+            _ = LongestRepeatingSubstringReplace.CharacterReplacement("AAABABB", 1).Should().Be(5);
 
         }
     }

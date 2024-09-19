@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.Trees;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Right_View_BST.Tests
 {
@@ -10,7 +9,7 @@ namespace Right_View_BST.Tests
         [TestMethod()]
         public void RightSideViewTest()
         {
-            RightViewBST.RightSideView(
+            _ = RightViewBST.RightSideView(
                 new TreeNode(1, new TreeNode(2), new TreeNode(3)))
                 .Should().BeEquivalentTo(new List<int>() { 1, 3 });
         }
@@ -18,7 +17,7 @@ namespace Right_View_BST.Tests
         [TestMethod()]
         public void RightSideViewTest2()
         {
-            RightViewBST.RightSideView(
+            _ = RightViewBST.RightSideView(
                 new TreeNode(1, new TreeNode(2, new TreeNode(4), new TreeNode(5)), new TreeNode(3, new TreeNode(6), new TreeNode(7))))
                 .Should().BeEquivalentTo(new List<int>() { 1, 3, 7 });
         }

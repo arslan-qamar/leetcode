@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
+using InvertBST;
 using LeetCodeSolutions.NeetCode.Trees;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace InvertBST
+namespace LeetCodeSolutionsTests.NeetCode.Trees.InvertBST
 {
     [TestClass()]
     public class InvertBinarySearchTreeTests
@@ -10,10 +10,10 @@ namespace InvertBST
         [TestMethod()]
         public void InvertTreeTest()
         {
-            InvertBinarySearchTree.InvertTree(
+            _ = InvertBinarySearchTree.InvertTree(
                 new TreeNode(1, new TreeNode(2, new TreeNode(4), new TreeNode(5)), new TreeNode(3, new TreeNode(6), new TreeNode(7)))
                 ).Should().BeEquivalentTo(
-                new TreeNode(1, new TreeNode(3, new TreeNode(7), new TreeNode(6)), new TreeNode(2, new TreeNode(5), new TreeNode(4)))               
+                new TreeNode(1, new TreeNode(3, new TreeNode(7), new TreeNode(6)), new TreeNode(2, new TreeNode(5), new TreeNode(4)))
                 );
 
         }

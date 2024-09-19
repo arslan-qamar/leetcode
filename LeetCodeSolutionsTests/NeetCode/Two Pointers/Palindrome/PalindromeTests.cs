@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Palindrome
 {
@@ -9,12 +8,12 @@ namespace Palindrome
         [TestMethod()]
         public void IsPalindromeTest()
         {
-            Palindrome.IsPalindrome("Was it a car or a cat I saw?").Should().BeTrue();
-            Palindrome.IsPalindrome("tab a cat").Should().BeFalse();
-            Palindrome.IsPalindrome("").Should().BeTrue();
-            Palindrome.IsPalindrome(" ").Should().BeTrue();
-            Palindrome.IsPalindrome("  ").Should().BeTrue();
-            Palindrome.IsPalindrome(null).Should().BeFalse();
+            _ = Palindrome.IsPalindrome("Was it a car or a cat I saw?").Should().BeTrue();
+            _ = Palindrome.IsPalindrome("tab a cat").Should().BeFalse();
+            _ = Palindrome.IsPalindrome("").Should().BeTrue();
+            _ = Palindrome.IsPalindrome(" ").Should().BeTrue();
+            _ = Palindrome.IsPalindrome("  ").Should().BeTrue();
+            _ = Palindrome.IsPalindrome(null).Should().BeFalse();
         }
     }
 }

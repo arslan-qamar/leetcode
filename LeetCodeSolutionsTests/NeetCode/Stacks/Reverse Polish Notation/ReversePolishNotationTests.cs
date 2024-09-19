@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Reverse_Polish_Notation
 {
@@ -9,10 +8,10 @@ namespace Reverse_Polish_Notation
         [TestMethod()]
         public void EvalRPNTest()
         {
-            ReversePolishNotation.EvalRPN(new string[] { "1", "2", "+", "3", "*", "4", "-" }).Should().Be(5);
-            ReversePolishNotation.EvalRPN(new string[] { "1", "2", "+" }).Should().Be(3);
-            ReversePolishNotation.EvalRPN(new string[] { "1" }).Should().Be(1);
-            ReversePolishNotation.EvalRPN(new string[] { "1", "2" }).Should().Be(0);
+            _ = ReversePolishNotation.EvalRPN(new string[] { "1", "2", "+", "3", "*", "4", "-" }).Should().Be(5);
+            _ = ReversePolishNotation.EvalRPN(new string[] { "1", "2", "+" }).Should().Be(3);
+            _ = ReversePolishNotation.EvalRPN(new string[] { "1" }).Should().Be(1);
+            _ = ReversePolishNotation.EvalRPN(new string[] { "1", "2" }).Should().Be(0);
 
         }
     }

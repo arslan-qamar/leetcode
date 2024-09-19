@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FluentAssertions;
+﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.Trees;
 
 namespace SubTree_Checker.Tests
@@ -11,8 +10,8 @@ namespace SubTree_Checker.Tests
         public void IsSubtreeTest()
         {
 
-            SubTreeChecker subTreeChecker = new SubTreeChecker();
-            subTreeChecker.IsSubtree(new TreeNode(1), new TreeNode(1)).Should().BeTrue();
+            SubTreeChecker subTreeChecker = new();
+            _ = subTreeChecker.IsSubtree(new TreeNode(1), new TreeNode(1)).Should().BeTrue();
 
 
         }

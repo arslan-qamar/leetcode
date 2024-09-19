@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Shouldly;
+﻿using Shouldly;
 
 namespace LRU_Cache.Tests
 {
@@ -9,7 +8,7 @@ namespace LRU_Cache.Tests
         [TestMethod()]
         public void LRUCacheTest()
         {
-            LRUCache lRUCache = new LRUCache(1);
+            LRUCache lRUCache = new(1);
 
             lRUCache.Put(1, 1);
             lRUCache.Put(2, 1);
@@ -24,7 +23,7 @@ namespace LRU_Cache.Tests
         [TestMethod()]
         public void LRUCacheTest2()
         {
-            LRUCache lRUCache = new LRUCache(2);
+            LRUCache lRUCache = new(2);
 
             lRUCache.Put(1, 1);
             lRUCache.Put(1, 1);

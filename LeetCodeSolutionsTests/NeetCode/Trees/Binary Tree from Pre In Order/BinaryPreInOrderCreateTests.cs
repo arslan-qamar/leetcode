@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.Trees;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Binary_Tree_from_Pre_In_Order.Tests
 {
@@ -10,7 +9,7 @@ namespace Binary_Tree_from_Pre_In_Order.Tests
         [TestMethod()]
         public void BuildTreeTest()
         {
-            BinaryPreInOrderCreate.BuildTree(new int[] { 1, 2, 3, 4 }, new int[] { 2, 1, 3, 4 }).Should().BeEquivalentTo(
+            _ = BinaryPreInOrderCreate.BuildTree(new int[] { 1, 2, 3, 4 }, new int[] { 2, 1, 3, 4 }).Should().BeEquivalentTo(
                 new TreeNode(1, new TreeNode(2), new TreeNode(3, null, new TreeNode(4)))
                 );
         }

@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Minimum_Window_With_Characters
 {
@@ -9,13 +8,13 @@ namespace Minimum_Window_With_Characters
         [TestMethod()]
         public void MinWindowTest()
         {
-            MinimumWindowWithCharacters.MinWindow("OUZODYXAZV", "XYZ").Should().Be("YXAZ");
+            _ = MinimumWindowWithCharacters.MinWindow("OUZODYXAZV", "XYZ").Should().Be("YXAZ");
         }
 
         [TestMethod()]
         public void MinWindowSpecialCaseTest()
         {
-            MinimumWindowWithCharacters.MinWindow("a", "a").Should().Be("a");
+            _ = MinimumWindowWithCharacters.MinWindow("a", "a").Should().Be("a");
         }
     }
 }

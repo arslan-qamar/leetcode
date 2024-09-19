@@ -1,7 +1,6 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCodeSolutions.NeetCode.Trees.ValidBST.Tests
+namespace LeetCodeSolutions.NeetCode.Trees.ValidBST
 {
     [TestClass()]
     public class ValidBSTTests

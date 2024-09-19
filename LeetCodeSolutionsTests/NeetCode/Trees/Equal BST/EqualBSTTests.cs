@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.Trees;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Equal_BST.Tests
 {
@@ -10,7 +9,7 @@ namespace Equal_BST.Tests
         [TestMethod()]
         public void IsSameTreeTest()
         {
-            EqualBST.IsSameTree(
+            _ = EqualBST.IsSameTree(
                 new TreeNode(1, new TreeNode(2), new TreeNode(3)),
                 new TreeNode(1, new TreeNode(2), new TreeNode(3))
                 ).Should().BeTrue();
@@ -20,7 +19,7 @@ namespace Equal_BST.Tests
         [TestMethod()]
         public void IsSameTreeTest2()
         {
-            EqualBST.IsSameTree(
+            _ = EqualBST.IsSameTree(
                 new TreeNode(4, new TreeNode(7)),
                 new TreeNode(4, null, new TreeNode(7))
                 ).Should().BeFalse();

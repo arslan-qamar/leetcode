@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Product_Exclude_Self
 {
@@ -13,7 +12,7 @@ namespace Product_Exclude_Self
 
             int[] expectedResult = new int[] { 48, 24, 12, 8 };
 
-            result.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
+            _ = result.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
         }
 
         [TestMethod()]
@@ -23,7 +22,7 @@ namespace Product_Exclude_Self
 
             int[] expectedResult = new int[] { 0, -6, 0, 0, 0 };
 
-            result.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
+            _ = result.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
         }
     }
 }

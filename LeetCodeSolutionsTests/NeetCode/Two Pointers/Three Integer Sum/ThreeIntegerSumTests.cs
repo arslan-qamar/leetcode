@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Shouldly;
+﻿using Shouldly;
 
 namespace Three_Integer_Sum
 {
@@ -11,8 +10,8 @@ namespace Three_Integer_Sum
         {
             ThreeIntegerSum.ThreeSum(new int[] { -1, 0, 1, 2, -1, -4 }).ShouldBeEquivalentTo(new List<List<int>>()
             {
-                new List<int>(){ -1,-1,2 },
-                new List<int>() { -1, 0, 1 }
+                new(){ -1,-1,2 },
+                new() { -1, 0, 1 }
             });
 
 
@@ -24,7 +23,7 @@ namespace Three_Integer_Sum
 
             ThreeIntegerSum.ThreeSum(new int[] { 0, 0, 0 }).ShouldBeEquivalentTo(new List<List<int>>()
             {
-                new List<int>(){ 0,0,0 }
+                new(){ 0,0,0 }
             });
 
 
@@ -35,7 +34,7 @@ namespace Three_Integer_Sum
         {
             ThreeIntegerSum.ThreeSum(new int[] { 0, 0, 0, 0 }).ShouldBeEquivalentTo(new List<List<int>>()
             {
-                new List<int>(){ 0,0,0 }
+                new(){ 0,0,0 }
             });
         }
 
@@ -44,8 +43,8 @@ namespace Three_Integer_Sum
         {
             ThreeIntegerSum.ThreeSum(new int[] { -2, 0, 1, 1, 2 }).ShouldBeEquivalentTo(new List<List<int>>()
             {
-                new List<int>(){ -2,0,2 },
-                new List<int>(){ -2, 1, 1 }
+                new(){ -2,0,2 },
+                new(){ -2, 1, 1 }
             });
 
         }

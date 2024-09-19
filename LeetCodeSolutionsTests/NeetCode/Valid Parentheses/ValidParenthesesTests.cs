@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Valid_Parentheses
 {
@@ -9,19 +8,19 @@ namespace Valid_Parentheses
         [TestMethod()]
         public void IsValidTest()
         {
-            ValidParentheses.IsValid("[]").Should().BeTrue();
+            _ = ValidParentheses.IsValid("[]").Should().BeTrue();
         }
 
         [TestMethod()]
         public void IsValidTest2()
         {
-            ValidParentheses.IsValid("([{}])").Should().BeTrue();
+            _ = ValidParentheses.IsValid("([{}])").Should().BeTrue();
         }
 
         [TestMethod()]
         public void IsInValidTest()
         {
-            ValidParentheses.IsValid("[(])").Should().BeFalse();
+            _ = ValidParentheses.IsValid("[(])").Should().BeFalse();
         }
 
 
@@ -29,7 +28,7 @@ namespace Valid_Parentheses
         [TestMethod()]
         public void IsInValidTestSpecial()
         {
-            ValidParentheses.IsValid("]").Should().BeFalse();
+            _ = ValidParentheses.IsValid("]").Should().BeFalse();
         }
     }
 }

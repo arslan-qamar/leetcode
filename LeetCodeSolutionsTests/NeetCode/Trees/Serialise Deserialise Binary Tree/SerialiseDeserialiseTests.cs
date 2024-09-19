@@ -1,7 +1,5 @@
-﻿using Serialise_Deserialise_Binary_Tree;
-using FluentAssertions;
+﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.Trees;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Serialise_Deserialise_Binary_Tree.Tests
 {
@@ -11,14 +9,14 @@ namespace Serialise_Deserialise_Binary_Tree.Tests
         [TestMethod()]
         public void SerializeTest()
         {
-            SerialiseDeserialise.Serialize(
+            _ = SerialiseDeserialise.Serialize(
                 new TreeNode(1, new TreeNode(2), new TreeNode(3))).Should().Be("1,2,null,null,3,null,null");
         }
 
         [TestMethod()]
         public void SerializeTest2()
         {
-            SerialiseDeserialise.Serialize(
+            _ = SerialiseDeserialise.Serialize(
                 new TreeNode(1)).Should().Be("1,null,null");
         }
 
@@ -26,37 +24,37 @@ namespace Serialise_Deserialise_Binary_Tree.Tests
         [TestMethod()]
         public void SerializeTest3()
         {
-            SerialiseDeserialise.Serialize(null).Should().Be("null");
+            _ = SerialiseDeserialise.Serialize(null).Should().Be("null");
         }
 
         [TestMethod()]
         public void DeserializeTest()
-        {            
-            TreeNode root = new TreeNode(1, new TreeNode(2), new TreeNode(3));
-         
+        {
+            TreeNode root = new(1, new TreeNode(2), new TreeNode(3));
+
             string serialised = SerialiseDeserialise.Serialize(root);
 
-            SerialiseDeserialise.Deserialize(serialised).Should().BeEquivalentTo(root);
+            _ = SerialiseDeserialise.Deserialize(serialised).Should().BeEquivalentTo(root);
         }
 
         [TestMethod()]
         public void DeserializeTest2()
         {
-            TreeNode root = null;
+            TreeNode? root = null;
 
             string serialised = SerialiseDeserialise.Serialize(root);
 
-            SerialiseDeserialise.Deserialize(serialised).Should().BeEquivalentTo(root);
+            _ = SerialiseDeserialise.Deserialize(serialised).Should().BeEquivalentTo(root);
         }
 
         [TestMethod()]
         public void DeserializeTest3()
         {
-            TreeNode root = new TreeNode(1, new TreeNode(2));
+            TreeNode root = new(1, new TreeNode(2));
 
             string serialised = SerialiseDeserialise.Serialize(root);
 
-            SerialiseDeserialise.Deserialize(serialised).Should().BeEquivalentTo(root);
+            _ = SerialiseDeserialise.Deserialize(serialised).Should().BeEquivalentTo(root);
         }
 
     }

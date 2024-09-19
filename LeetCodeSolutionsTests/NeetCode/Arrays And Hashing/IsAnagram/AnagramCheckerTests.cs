@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace IsAnagram
+﻿namespace IsAnagram
 {
     [TestClass()]
     public class AnagramCheckerTests

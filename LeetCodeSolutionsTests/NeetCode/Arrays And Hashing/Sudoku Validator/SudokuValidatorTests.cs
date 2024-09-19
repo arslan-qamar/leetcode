@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Sudoku_Validator
 {
@@ -61,10 +60,10 @@ namespace Sudoku_Validator
                                 new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
                            };
 
-            SudokuValidator.validateRows(board).Should().BeTrue();
-            SudokuValidator.validateRows(invalidBoard1).Should().BeFalse();
-            SudokuValidator.validateRows(invalidBoard2).Should().BeTrue();
-            SudokuValidator.validateRows(invalidBoard3).Should().BeFalse();
+            _ = SudokuValidator.validateRows(board).Should().BeTrue();
+            _ = SudokuValidator.validateRows(invalidBoard1).Should().BeFalse();
+            _ = SudokuValidator.validateRows(invalidBoard2).Should().BeTrue();
+            _ = SudokuValidator.validateRows(invalidBoard3).Should().BeFalse();
         }
 
         [TestMethod()]
@@ -96,8 +95,8 @@ namespace Sudoku_Validator
                                 new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
                             };
 
-            SudokuValidator.validateColumns(board).Should().BeTrue();
-            SudokuValidator.validateColumns(invalidBoard).Should().BeFalse();
+            _ = SudokuValidator.validateColumns(board).Should().BeTrue();
+            _ = SudokuValidator.validateColumns(invalidBoard).Should().BeFalse();
         }
 
         [TestMethod()]
@@ -129,8 +128,8 @@ namespace Sudoku_Validator
                                 new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
                             };
 
-            SudokuValidator.validateSubBoxes(board).Should().BeTrue();
-            SudokuValidator.validateSubBoxes(invalidBoard).Should().BeFalse();
+            _ = SudokuValidator.validateSubBoxes(board).Should().BeTrue();
+            _ = SudokuValidator.validateSubBoxes(invalidBoard).Should().BeFalse();
         }
 
         [TestMethod()]
@@ -149,7 +148,7 @@ namespace Sudoku_Validator
                 new char[] { '.', '.', '.', '.', '.', '.', '.', '.', '.' }
             };
 
-            SudokuValidator.IsValidSudoku(board).Should().BeTrue();
+            _ = SudokuValidator.IsValidSudoku(board).Should().BeTrue();
 
         }
 

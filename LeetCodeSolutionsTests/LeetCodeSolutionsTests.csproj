@@ -22,4 +22,8 @@
     <ProjectReference Include="..\LeetCodeSolutions\LeetCodeSolutions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+
 </Project>

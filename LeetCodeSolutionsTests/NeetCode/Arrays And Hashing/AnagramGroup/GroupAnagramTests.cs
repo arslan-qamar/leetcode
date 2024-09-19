@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AnagramGroup
 {
@@ -11,13 +10,13 @@ namespace AnagramGroup
         {
             List<List<string>> result = GroupAnagram.GroupAnagrams(new string[] { "act", "pots", "tops", "cat", "stop", "hat" });
 
-            List<List<string>> expectedResult = new List<List<string>>() {
-                new List<string>(){"act", "cat"},
-                new List<string>(){"hat"},
-                new List<string>(){ "stop", "pots", "tops" }
-                };
+            List<List<string>> expectedResult = [
+                ["act", "cat"],
+                ["hat"],
+                ["stop", "pots", "tops"]
+                ];
 
-            result.Should().BeEquivalentTo(expectedResult);
+            _ = result.Should().BeEquivalentTo(expectedResult);
         }
 
         [TestMethod()]
@@ -25,11 +24,11 @@ namespace AnagramGroup
         {
             List<List<string>> result = GroupAnagram.GroupAnagrams(new string[] { "" });
 
-            List<List<string>> expectedResult = new List<List<string>>() {
-                new List<string>(){""}
-                };
+            List<List<string>> expectedResult = [
+                [""]
+                ];
 
-            result.Should().BeEquivalentTo(expectedResult);
+            _ = result.Should().BeEquivalentTo(expectedResult);
         }
 
         [TestMethod()]
@@ -37,11 +36,11 @@ namespace AnagramGroup
         {
             List<List<string>> result = GroupAnagram.GroupAnagrams(new string[] { "X" });
 
-            List<List<string>> expectedResult = new List<List<string>>() {
-                new List<string>(){"X"}
-                };
+            List<List<string>> expectedResult = [
+                ["X"]
+                ];
 
-            result.Should().BeEquivalentTo(expectedResult);
+            _ = result.Should().BeEquivalentTo(expectedResult);
         }
 
 
@@ -50,9 +49,9 @@ namespace AnagramGroup
         {
             List<List<string>> result = GroupAnagram.GroupAnagrams(new string[] { });
 
-            List<List<string>> expectedResult = new List<List<string>>() { };
+            List<List<string>> expectedResult = [];
 
-            result.Should().BeEquivalentTo(expectedResult);
+            _ = result.Should().BeEquivalentTo(expectedResult);
         }
     }
 }

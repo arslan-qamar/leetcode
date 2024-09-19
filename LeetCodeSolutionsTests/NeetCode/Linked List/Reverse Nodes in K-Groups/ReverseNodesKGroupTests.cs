@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Reverse_Nodes_in_K_Groups.Tests
 {
@@ -9,7 +8,7 @@ namespace Reverse_Nodes_in_K_Groups.Tests
         [TestMethod()]
         public void ReverseKGroupTest()
         {
-            ReverseNodesKGroup.ReverseKGroup(
+            _ = ReverseNodesKGroup.ReverseKGroup(
                 new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6, new ListNode(7, new ListNode(8, new ListNode(9))))))))), 3
                 )
                 .Should().BeEquivalentTo(
@@ -20,7 +19,7 @@ namespace Reverse_Nodes_in_K_Groups.Tests
         [TestMethod()]
         public void ReverseKGroupTest2()
         {
-            ReverseNodesKGroup.ReverseKGroup(
+            _ = ReverseNodesKGroup.ReverseKGroup(
                 new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6, new ListNode(7, new ListNode(8)))))))), 3
                 )
                 .Should().BeEquivalentTo(
@@ -32,7 +31,7 @@ namespace Reverse_Nodes_in_K_Groups.Tests
         [TestMethod()]
         public void ReverseKGroupTest3()
         {
-            ReverseNodesKGroup.ReverseKGroup(
+            _ = ReverseNodesKGroup.ReverseKGroup(
                 new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6, new ListNode(7, new ListNode(8)))))))), 1
                 )
                 .Should().BeEquivalentTo(

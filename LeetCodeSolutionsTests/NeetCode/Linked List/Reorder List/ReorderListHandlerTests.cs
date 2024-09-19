@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Shouldly;
+﻿using Shouldly;
 
 namespace Reorder_List.Tests
 {
@@ -9,7 +8,7 @@ namespace Reorder_List.Tests
         [TestMethod()]
         public void ReorderListTest()
         {
-            ListNode listNode = new ListNode(2, new ListNode(4, new ListNode(6, new ListNode(8, null))));
+            ListNode listNode = new(2, new ListNode(4, new ListNode(6, new ListNode(8, null))));
             ReorderListHandler.ReorderList(listNode);
 
             listNode.ShouldBeEquivalentTo(new ListNode(2, new ListNode(8, new ListNode(4, new ListNode(6, null)))));
@@ -18,7 +17,7 @@ namespace Reorder_List.Tests
         [TestMethod()]
         public void ReorderListTest2()
         {
-            ListNode listNode = new ListNode(2, new ListNode(4, new ListNode(6, null)));
+            ListNode listNode = new(2, new ListNode(4, new ListNode(6, null)));
             ReorderListHandler.ReorderList(listNode);
 
             listNode.ShouldBeEquivalentTo(new ListNode(2, new ListNode(6, new ListNode(4, null))));
@@ -28,7 +27,7 @@ namespace Reorder_List.Tests
         [TestMethod()]
         public void ReorderListTest3()
         {
-            ListNode listNode = new ListNode(2, new ListNode(4, new ListNode(6, new ListNode(8, new ListNode(10, new ListNode(12, null))))));
+            ListNode listNode = new(2, new ListNode(4, new ListNode(6, new ListNode(8, new ListNode(10, new ListNode(12, null))))));
             ReorderListHandler.ReorderList(listNode);
 
             listNode.ShouldBeEquivalentTo(new ListNode(2, new ListNode(12, new ListNode(4, new ListNode(10, new ListNode(6, new ListNode(8, null)))))));

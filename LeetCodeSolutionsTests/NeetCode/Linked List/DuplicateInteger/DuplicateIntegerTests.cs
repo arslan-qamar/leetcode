@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DuplicateInteger.Tests
 {
@@ -9,13 +8,13 @@ namespace DuplicateInteger.Tests
         [TestMethod()]
         public void FindDuplicateTest()
         {
-            DuplicateInteger.FindDuplicate(new int[] { 1, 2, 3, 2, 2 }).Should().Be(2);
+            _ = DuplicateInteger.FindDuplicate(new int[] { 1, 2, 3, 2, 2 }).Should().Be(2);
         }
 
         [TestMethod()]
         public void FindDuplicateTest2()
         {
-            DuplicateInteger.FindDuplicate(new int[] { 1, 2, 3, 4, 4 }).Should().Be(4);
+            _ = DuplicateInteger.FindDuplicate(new int[] { 1, 2, 3, 4, 4 }).Should().Be(4);
         }
     }
 }

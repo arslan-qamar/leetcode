@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace Duplicate_Integer
+﻿namespace Duplicate_Integer
 {
     [TestClass()]
     public class DuplicateIntegerTests

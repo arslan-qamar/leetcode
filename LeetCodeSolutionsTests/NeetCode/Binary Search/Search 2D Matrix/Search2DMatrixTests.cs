@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Binary_Search.Search_2D_Matrix.Tests
 {
@@ -9,7 +8,7 @@ namespace Binary_Search.Search_2D_Matrix.Tests
         [TestMethod()]
         public void SearchMatrixTest()
         {
-            Search2DMatrix.SearchMatrix(new int[][]
+            _ = Search2DMatrix.SearchMatrix(new int[][]
             {
                 new int [] {1,2,4,8 },
                 new int [] {10, 11, 12, 13 },
@@ -20,7 +19,7 @@ namespace Binary_Search.Search_2D_Matrix.Tests
         [TestMethod()]
         public void SearchMatrixTest2()
         {
-            Search2DMatrix.SearchMatrix(new int[][]
+            _ = Search2DMatrix.SearchMatrix(new int[][]
             {
                 new int [] {1,2,4,8 },
                 new int [] {10, 11, 12, 13 },
@@ -31,7 +30,7 @@ namespace Binary_Search.Search_2D_Matrix.Tests
         [TestMethod()]
         public void SearchMatrixTest3()
         {
-            Search2DMatrix.SearchMatrix(new int[][]
+            _ = Search2DMatrix.SearchMatrix(new int[][]
             {
                 new int [] {1,3,5,7 },
                 new int [] {10,11,16,20 },
@@ -43,7 +42,7 @@ namespace Binary_Search.Search_2D_Matrix.Tests
         [TestMethod()]
         public void SearchMatrixTest4()
         {
-            Search2DMatrix.SearchMatrix(new int[][]
+            _ = Search2DMatrix.SearchMatrix(new int[][]
             {
                 new int [] {1},
                 new int [] {3}
@@ -53,7 +52,7 @@ namespace Binary_Search.Search_2D_Matrix.Tests
         [TestMethod()]
         public void SearchMatrixTest5()
         {
-            Search2DMatrix.SearchMatrix(new int[][]
+            _ = Search2DMatrix.SearchMatrix(new int[][]
             {
                 new int [] {1}
             }, 1).Should().BeTrue();

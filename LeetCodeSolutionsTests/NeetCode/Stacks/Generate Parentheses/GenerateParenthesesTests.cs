@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Generate_Parentheses
 {
@@ -9,8 +8,8 @@ namespace Generate_Parentheses
         [TestMethod()]
         public void GenerateParenthesisTest()
         {
-            GenerateParentheses.GenerateParenthesis(1).Should().BeEquivalentTo(new string[] { "()" });
-            GenerateParentheses.GenerateParenthesis(3).Should().BeEquivalentTo(new string[] { "((()))", "(()())", "(())()", "()(())", "()()()" });
+            _ = GenerateParentheses.GenerateParenthesis(1).Should().BeEquivalentTo(new string[] { "()" });
+            _ = GenerateParentheses.GenerateParenthesis(3).Should().BeEquivalentTo(new string[] { "((()))", "(()())", "(())()", "()(())", "()()()" });
         }
     }
 }

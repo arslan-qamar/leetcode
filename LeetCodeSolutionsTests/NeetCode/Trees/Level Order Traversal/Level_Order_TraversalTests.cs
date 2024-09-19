@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.Trees;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Level_Order_Traversal.Tests
 {
@@ -10,18 +9,18 @@ namespace Level_Order_Traversal.Tests
         [TestMethod()]
         public void LevelOrderTest()
         {
-            Level_Order_Traversal levelOrderTraversal = new Level_Order_Traversal();
+            Level_Order_Traversal levelOrderTraversal = new();
 
 
-            levelOrderTraversal.LevelOrder(
+            _ = levelOrderTraversal.LevelOrder(
 
                 new TreeNode(1, new TreeNode(2, new TreeNode(4), new TreeNode(5)), new TreeNode(3, new TreeNode(6), new TreeNode(7)))
                 ).Should().BeEquivalentTo(
                 new List<List<int>>()
                 {
-                    new List<int>() {1 },
-                    new List<int>() { 2,3},
-                    new List<int>() { 4,5,6,7}
+                    new() {1 },
+                    new() { 2,3},
+                    new() { 4,5,6,7}
                 }
 
                 );
