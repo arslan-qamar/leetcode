@@ -1,0 +1,4 @@
+Use HashSets to store the followers and Tweets in a single timeline to keep it simple. Drawback is the timeline can blow up quite quickly. 
+So the efficient approach would be to keep timeline per user.
+	- One naive approach can be to get top 10 tweets from each follower and user and sort them and pick 10
+	- Other Lengthy approach is to pick the most recent tweet from all of the followers and current user tweet until we have top 10 tweets (K Sorted Merge Lists problem) (Should not be asked to implement it in interview of 1 hr)

@@ -1,0 +1,14 @@
+Backtracking technique is to do DFS on the list with current value added to the accumulator 
+and another DFS run without the value
+
+General Structure is : 
+
+DFS_Method(index)
+	Base case (sum == target)
+		Add the combination copy to the main result set
+
+	Add current index value to subset accumulator
+	DFS_Method(index) // Use the current index here if repeat use of value is allowed as in Combinations sum finder case
+	Remove last value from subset accumulator
+	DFS_Method(index + 1) 
+

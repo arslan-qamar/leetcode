@@ -1,0 +1,1 @@
+Use two heaps (priority queues) maxHeap for smaller values and minHeap for larger values as the top of both heaps are the mid points
