@@ -1,0 +1,1 @@
+Same trick here is to sort the array and skip the index for same values in excluded case.
