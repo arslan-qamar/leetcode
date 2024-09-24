@@ -1,0 +1,2 @@
+The trick is to sort the array and then apply backtracking subsets
+in the not include case move the index forward while ( num[index] == num[index+1] )
