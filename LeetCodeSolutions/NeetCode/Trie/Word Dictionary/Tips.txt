@@ -1,0 +1,1 @@
+Trick is to use DFS when . is encountered on all the nodes for temp TrieNode with i+1 and return true

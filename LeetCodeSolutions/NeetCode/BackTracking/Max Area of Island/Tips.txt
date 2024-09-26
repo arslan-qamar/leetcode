@@ -1,0 +1,10 @@
+This is different to the num of islands in the sense that we need to count the area of each island 
+where the trick is to return the area count from dfs recursive call and do (also do not call dfs on already visited spot)
+
+base cases (boundary , not already visited, not == 1)
+
+add to visited 
+
+return 1 + up + down + right + left
+
+no need to clear visited ones.

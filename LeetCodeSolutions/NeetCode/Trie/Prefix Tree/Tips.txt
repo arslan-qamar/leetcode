@@ -1,0 +1,3 @@
+Typical Trie structure
+
+Revise how to add search and FindAllWords for a given node (using recursion)

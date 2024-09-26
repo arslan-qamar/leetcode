@@ -25,5 +25,6 @@ Permutations
 WordSearch
 Palindrome Partition
 Phone Letter Combination
+Word Dictionary Search with . (any character)
 
 

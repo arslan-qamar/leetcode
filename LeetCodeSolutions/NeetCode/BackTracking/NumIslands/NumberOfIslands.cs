@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Graphs.NumIslands
+﻿namespace LeetCodeSolutions.NeetCode.BackTracking.NumIslands
 {
     public class NumberOfIslands
     {

@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.BackTracking.N_Queen;
 
-namespace LeetCodeSolutions.NeetCode.BackTracking.N_Queen.Tests
+namespace N_Queen
 {
     [TestClass()]
     public class NQueenBackTrackingTests

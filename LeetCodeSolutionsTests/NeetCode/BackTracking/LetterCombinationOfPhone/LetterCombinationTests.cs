@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.BackTracking.LetterCombinationOfPhone;
 
-namespace LeetCodeSolutions.NeetCode.BackTracking.LetterCombinationOfPhone.Tests
+namespace LetterCombinationOfPhone
 {
     [TestClass()]
     public class LetterCombinationTests

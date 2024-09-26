@@ -2,28 +2,21 @@
 {
     public class PrefixTree
     {
-        public class TrieNode
-        {
-            public bool End = false;
-
-            public Dictionary<char, TrieNode> map = new Dictionary<char, TrieNode>();
-        }
-
-        TrieNode root;
+        Trie root;
 
         public PrefixTree()
         {
-            root = new TrieNode();
+            root = new Trie();
         }
 
         public void Insert(string word)
         {
-            TrieNode temp = root;
+            Trie temp = root;
             for (int i = 0; i < word.Length; i++)
             {
                 if (!temp.map.ContainsKey(word[i]))
                 {
-                    temp.map.Add(word[i], new TrieNode());
+                    temp.map.Add(word[i], new Trie());
                 }
 
                 temp = temp.map[word[i]];
@@ -33,7 +26,7 @@
 
         public bool Search(string word)
         {
-            TrieNode temp = root;
+            Trie temp = root;
             for (int i = 0; i < word.Length; i++)
             {
                 if (!temp.map.ContainsKey(word[i]))
@@ -50,7 +43,7 @@
         public bool StartsWith(string prefix)
         {
 
-            TrieNode temp = root;
+            Trie temp = root;
             for (int i = 0; i < prefix.Length; i++)
             {
                 if (!temp.map.ContainsKey(prefix[i]))
@@ -63,6 +56,43 @@
 
             return true;
 
+        }
+
+        public Trie SearchLastMatchingNode(string prefix)
+        {
+            Trie temp = root;
+            for (int i = 0; i < prefix.Length; i++)
+            {
+
+                if (!temp.map.ContainsKey(prefix[i]))
+                {
+                    return temp;
+                }
+
+                temp = temp.map[prefix[i]];
+
+            }
+
+            return temp;
+        }
+
+        public void FindAllWords(Trie node, string word, List<string> words)
+        {
+
+            if (node == null)
+            {
+                return;
+            }
+
+            if (node.End)
+            {
+                words.Add(word);
+            }
+
+            foreach (var val in node.map)
+            {
+                FindAllWords(val.Value, word + val.Key, words);
+            }
         }
     }
 }
