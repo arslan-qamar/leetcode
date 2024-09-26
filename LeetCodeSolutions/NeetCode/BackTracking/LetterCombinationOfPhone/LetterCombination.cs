@@ -10,6 +10,11 @@ namespace LeetCodeSolutions.NeetCode.BackTracking.LetterCombinationOfPhone
         {
             List<string> result = new List<string>();                      
 
+            if(string.IsNullOrEmpty(digits))
+            {
+                return result;
+            }
+
             Dictionary<int, char[]> CharMap = new Dictionary<int, char[]>()
             {
                 {'2', new char[]{'a', 'b', 'c' } },
