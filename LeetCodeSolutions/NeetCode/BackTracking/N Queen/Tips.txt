@@ -1,0 +1,18 @@
+Use BackTracking, do Dfs row wise
+
+*** The trick is to keep track of column and diagonals (positive slope (r+c) and negative slope (r-c))  and if the current row and col exists in the hashsets skip over
+
+Base Case : 
+	Add copy of board to result when row == n
+
+update board[row][col] to Q
+update hashsets
+
+dfs(row + 1)
+
+undo board[row][col] to .
+undo hashsets
+
+
+
+
