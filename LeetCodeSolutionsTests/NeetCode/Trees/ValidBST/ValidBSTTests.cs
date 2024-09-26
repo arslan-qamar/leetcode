@@ -1,6 +1,8 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Trees;
+using LeetCodeSolutions.NeetCode.Trees.ValidBST;
 
-namespace LeetCodeSolutions.NeetCode.Trees.ValidBST
+namespace ValidBSTTests
 {
     [TestClass()]
     public class ValidBSTTests

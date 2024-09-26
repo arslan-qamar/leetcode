@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.BackTracking.DupCombinationSumII;
 
-namespace LeetCodeSolutions.NeetCode.BackTracking.DupCombinationSumII.Tests
+namespace DupCombinationSumII
 {
     [TestClass()]
     public class DupCombinationSum2Tests

@@ -1,0 +1,5 @@
+Iterate the matrix by r,c , if the spot is 1 and not visited ,do dfs, increment islandcounter
+do a dfs right left up down with base case return when
+	- row,col is not going out of bound
+	- the value of spot is 0
+	- the spot is already visited 

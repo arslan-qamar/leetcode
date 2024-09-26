@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolutions.NeetCode.Heaps_And_Priority_Queue
+﻿namespace LeetCodeSolutions.NeetCode.Heaps_And_Priority_Queue.MedianFinder
 {
     public class MedianFinder
     {

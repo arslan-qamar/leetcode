@@ -1,0 +1,15 @@
+Iterate the matrix by r,c clear visited , if the spot is start of word[0] , do dfs with index
+do a dfs right left up down with 2 base cases return when
+	- row,col is not going out of bound
+	- the value of spot is not equal to word[index]
+	- the spot is already visited 
+
+	- the index == word.Length -> return true
+
+add r,c to visited
+
+res = do dfs
+
+remove r,c from visited
+
+return dfs res

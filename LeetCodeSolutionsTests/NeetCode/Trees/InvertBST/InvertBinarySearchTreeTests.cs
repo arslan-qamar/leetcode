@@ -2,7 +2,7 @@
 using InvertBST;
 using LeetCodeSolutions.NeetCode.Trees;
 
-namespace LeetCodeSolutionsTests.NeetCode.Trees.InvertBST
+namespace InvertBSTTests
 {
     [TestClass()]
     public class InvertBinarySearchTreeTests

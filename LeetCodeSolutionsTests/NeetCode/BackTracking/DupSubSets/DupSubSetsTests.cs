@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.BackTracking.DupSubSets;
 
-namespace LeetCodeSolutions.NeetCode.BackTracking.DupSubSets.Tests
+namespace DupSubSetsTests
 {
     [TestClass()]
     public class DupSubSetsTests

@@ -1,0 +1,11 @@
+This is simple backtracking with slight twist inside the Dfs
+We need to iterate over the string in a loop and call Dfs recursively
+
+ for (int end = start; end < s.Length; end++)
+    if(isPalindrom(s,start,end)
+        //then call the dfs else skip over
+        subsets.Add(substring)
+        dfs(end+1)
+        subsets.RemoveLast()
+
+

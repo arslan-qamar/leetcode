@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Heaps_And_Priority_Queue.Twitter;
 
-namespace LeetCodeSolutions.NeetCode.Heaps_And_Priority_Queue.Twitter.Tests
+namespace TwitterTests
 {
     [TestClass()]
     public class TwitterTests

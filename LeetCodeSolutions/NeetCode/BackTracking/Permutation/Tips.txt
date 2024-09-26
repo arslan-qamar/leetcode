@@ -1,0 +1,13 @@
+Add an empty List<int> to result (List<List<int>>)
+Would need three loops
+foreach(n in nums) // iterate of the elements to permute
+	List<List<int>> new_Perm // a placeholder to hold currently permuted values
+		foreach(perm in result) // for each of the permuted values we would make more variations by adding the n to each index on it and add to result
+				for(i=0; i<new_perm.length; i++)
+					perm_copy = perm.copy
+					perm_copy.insertAt(i, n) //insert n at every possible index on the permutation entry
+					new_perm.Add(perm_copy		
+		result = new_perm //update the result set with new permutation for next n
+			
+
+

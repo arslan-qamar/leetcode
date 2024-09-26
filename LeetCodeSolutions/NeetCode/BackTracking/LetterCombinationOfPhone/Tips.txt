@@ -1,0 +1,4 @@
+Do Backtracking with Dfs with a loop like
+foreach (var c in CharMap[digits[index]])
+	// take c from first digit and pick c from next digit in recursive call to next
+	// undo the pick and keep going.

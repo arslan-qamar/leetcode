@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Heaps_And_Priority_Queue.MedianFinder;
 
-namespace LeetCodeSolutions.NeetCode.Heaps_And_Priority_Queue.Tests
+namespace MedianFinderTests
 {
     [TestClass()]
     public class MedianFinderTests

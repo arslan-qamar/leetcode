@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using LeetCodeSolutions.NeetCode.BackTracking;
 
-namespace LeetCodeSolutionsTests.NeetCode.BackTracking.Subsets
+namespace Subsets
 {
     [TestClass()]
     public class SubSetsTests

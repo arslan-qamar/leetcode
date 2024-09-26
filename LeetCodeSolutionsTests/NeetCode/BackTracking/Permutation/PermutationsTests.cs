@@ -1,8 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCodeSolutions.NeetCode.BackTracking.Permutation;
+﻿using LeetCodeSolutions.NeetCode.BackTracking.Permutation;
 using FluentAssertions;
 
-namespace LeetCodeSolutions.NeetCode.BackTracking.Permutation.Tests
+namespace Permutation
 {
     [TestClass()]
     public class PermutationsTests
