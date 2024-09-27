@@ -2,10 +2,10 @@
 {
     public class CloneGraphs
     {   
-        public static Node CloneGraph(Node root)
+        public static Node CloneGraph(Node node)
         {
             Dictionary<Node, Node> oldToNew = new Dictionary<Node, Node>();            
-            return Dfs(root);
+            return Dfs(node);
 
             Node Dfs(Node node)
             {
