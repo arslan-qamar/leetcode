@@ -1,0 +1,16 @@
+Trick is to use Dictionary<Node, Node> oldToNew and store the newly created nodes in it in recursive function. 
+
+Rest is simple traversal with basecase
+
+node == null
+	return null
+
+oldToNew contains node
+	return oldToNew[node] 
+
+
+NewNode = new Node(oldNode.val)
+oldToNew[node]  = NewNode
+
+Traverse Neighbours in a loop
+	NewNode.NeighBours.Add(node.Neighbour[i])
