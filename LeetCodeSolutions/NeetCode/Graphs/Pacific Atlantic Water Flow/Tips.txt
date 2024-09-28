@@ -1,0 +1,7 @@
+The trick here is to start from the top and left layer and do BFS moving inwards adding the spots to Hashset where the height is greater than originHeight
+
+You ll have two sets pacific and atlantic and intersection of the two is the result.
+
+
+
+DFS code is much simpler to write by tackling the top row and bottom row in one loop and left col and right col in other for both oceans
