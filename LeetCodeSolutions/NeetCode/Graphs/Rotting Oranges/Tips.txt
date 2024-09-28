@@ -1,0 +1,9 @@
+The trick is similar to Island And Treasure to do BFS from rotting fruits to fresh fruits and
+mark the neighbour fruit as rotten and added to the BFS queue and process in next layer.
+
+
+The tricky bit is to return -1 if not all the fruits get rotten which can be tracked in the first traversal
+to count the initial fresh fruits and add the initial rotten fruits to bfs queue loop.
+
+
+At the end if fruitsCount is not 0 then return -1 else return result (0 default)
