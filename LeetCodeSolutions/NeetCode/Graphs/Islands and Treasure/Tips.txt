@@ -1,0 +1,4 @@
+This can be solved using DFS and BFS (more efficient)
+
+BFS is more efficient as it starts from the Treasure and moves outwards , sets the distance for current spots in the BFS queue and 
+adds the next spots in all directions for next distance+1 layer to be processed in next iteration.

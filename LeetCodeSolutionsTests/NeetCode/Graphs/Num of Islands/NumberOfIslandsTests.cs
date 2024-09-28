@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using LeetCodeSolutions.NeetCode.BackTracking.NumIslands;
+using LeetCodeSolutions.NeetCode.Graphs.NumIslands;
 
 namespace IslandsTest
 {
