@@ -1,0 +1,7 @@
+The trick is to move inwards from borders , but mark the unsurrounded regions with T so all the regions on the borders and connected regions are marked as T
+
+Now we change all the surrounded O's with X's
+
+and revert the T's as O's
+
+
