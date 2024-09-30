@@ -1,0 +1,21 @@
+Populate the Adj List
+
+Add the empty dependency i's to the result.
+
+
+Foreach item in AdjList
+	!Dfs(i) -> false
+
+
+Dfs base cases:
+	if adj[i].count == 0 return true
+	if already visited return false
+
+	add i to visited list 
+	do Dfs on neighbours of i , if returns false 
+
+
+	remove i from visited
+	update adjlist for i to be empty 
+	Add i to result
+	return true

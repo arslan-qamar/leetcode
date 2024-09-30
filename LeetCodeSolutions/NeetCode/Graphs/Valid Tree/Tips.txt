@@ -1,0 +1,17 @@
+Create a double directed adj list for the edges
+
+do a dfs from 0 as i and it should return true 
+
+return dfs && visited == num
+
+base case :
+	if already visited return false
+
+add to visited 
+
+dfs on neigbours
+	Remove i from the neighbour list to avoid false cycle detection. (The two or more hop cycle would stay)
+	if !Dfs
+		return false
+
+return true

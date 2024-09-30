@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Graphs.Course_Schedule;
 
-namespace LeetCodeSolutions.NeetCode.Graphs.Course_Schedule.Tests
+namespace Course_Schedule.Tests
 {
     [TestClass()]
     public class CourseScheduleTests

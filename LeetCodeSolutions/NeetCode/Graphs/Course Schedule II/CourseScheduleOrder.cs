@@ -39,7 +39,7 @@ namespace LeetCodeSolutions.NeetCode.Graphs.Course_Schedule_II
             bool Dfs(int i)
             {
                 if (adjList[i].Count == 0)
-                {                    
+                {
                     return true;
                 }
 
