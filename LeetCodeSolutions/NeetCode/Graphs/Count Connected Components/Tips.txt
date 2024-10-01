@@ -1,0 +1,16 @@
+This is doable using Graph DFS traversal from node 0 and keep doing it for the left out nodes if any
+Also increment the component count for every DFS call
+
+
+
+
+This is also doable using Union Find , which is specifically for such problems to group nodes under one parent
+The logic goes like this 
+
+create a parents array where each node i has i as its parent
+create a rank array of n size with rank = 1 at start
+
+
+Traverse the edges between nodes and union their parents,
+Find the parent for each vertice until parent[res] = res
+and union them using the bigger rank
