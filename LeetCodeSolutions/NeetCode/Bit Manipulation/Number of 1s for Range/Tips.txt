@@ -1,0 +1,17 @@
+Number of 1s are one more than the count in exponential backoffset 
+e.g : 
+
+Dec           Binary            Offset
+0	          0                 
+1	          1                 1
+2	          10				2
+3	          11				2
+4	          100				4
+5	          101				4
+6	          110				4
+7	          111				4
+8	          1000				8
+
+
+4 has 0100 1 more 1 compared to 0 0000 (offset 4)
+8 also has 1000 1 more 1 compared to 0 0000 (offset 8) only the position of 1 changed compared to 4
