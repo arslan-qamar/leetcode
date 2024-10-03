@@ -1,0 +1,5 @@
+If you XOR a number with itself the result is 0
+
+If you XOR two pair of numbers in any order the result is still 0. eg. 1 ^ 2 ^ 1 ^ 2 = 0
+
+If you XOR a number with 0 the result is the number itself (This would be the single entry number left in result)
