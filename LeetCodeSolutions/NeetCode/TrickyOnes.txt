@@ -30,5 +30,8 @@ Number of islands
 Max Area of island
 Pacfic Atlantic Water Flow
 Surrounded Regions (Tricky change O to T)
+Ladder Length
+*** All Graph Ones :D ***
+
 
 

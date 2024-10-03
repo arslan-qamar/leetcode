@@ -1,0 +1,15 @@
+This is a tricky one but not so tricky
+
+The trick is to create a Adjacency list of pattern, <List of Matching Words>
+
+If endWord is not in the List of words straight up return 0
+
+So a word beginWord would create *eginword = <w1,w3,wx> and b*ginword and so on...
+
+Now we start BFS because BFS is layer by layer, where each layer is the sequence step in this problem case towards the goal
+
+In Bfs layer process if the endWord is found we return the current step/result(starts at 1)
+
+If not then for each word, append all the words for its possible patterns to be processed in next layer of BFS , increment result++
+
+If BFS ends and nothing found return 0 (hot -> dog , with list of words just [dog] , not possible to get dog from hot with just one word)
