@@ -1,0 +1,1 @@
+If you do AND operation on n AND n-1 it basically converts the right most 1 to 0  (since binary of 128 is 10000000 and 127 is 01111111 and AND'ing this gives us 0 in one call)
