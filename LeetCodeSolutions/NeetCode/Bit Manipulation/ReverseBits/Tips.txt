@@ -1,0 +1,5 @@
+The trick is to first x bit by anding it with 1 , Now place that bit in result by appending to 31-i left shifted spot
+
+uint bit = (n >> i) & 1;
+
+result += (bit << (31 - i));
