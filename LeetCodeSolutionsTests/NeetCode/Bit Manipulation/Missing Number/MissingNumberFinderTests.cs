@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Bit_Manipulation.Missing_Number;
 
-namespace LeetCodeSolutions.NeetCode.Bit_Manipulation.Missing_Number.Tests
+namespace Missing_Number.Tests
 {
     [TestClass()]
     public class MissingNumberFinderTests
