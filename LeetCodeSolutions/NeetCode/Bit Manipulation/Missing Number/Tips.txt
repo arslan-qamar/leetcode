@@ -1,0 +1,26 @@
+﻿Sum the total of numbers by gauss formulae : n(n+1) / 2
+Subtract each value in nums from Total to get the missing number
+
+
+
+XOR Approach :
+
+Key idea:
+In the array, one number from 1 to n is missing.
+xor1 contains the XOR of all numbers from 1 to n.
+xor2 contains the XOR of the elements in the array (which excludes the missing number).
+XORing xor1 with xor2 cancels out all the numbers that are present in both (since x⊕x=0) and leaves only the missing number.
+
+Example:For n=5
+
+XOR of all numbers from 1 to 5:
+
+xor1=1⊕2⊕3⊕4⊕5=3
+
+XOR of all elements in the array[1,2,4,5]:
+
+xor2=1⊕2⊕4⊕5=0
+
+The missing number:3⊕0=3
+
+So, the missing number is 3.
