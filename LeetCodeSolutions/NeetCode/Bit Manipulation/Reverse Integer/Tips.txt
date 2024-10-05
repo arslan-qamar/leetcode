@@ -1,0 +1,13 @@
+Take modulus by 10 to get the right most digit 
+Divide by 10 to to shorten the num by one digit from right and keep going till its not = 0
+
+
+In order to avoid overflow of int add these condition in the loop, Basically if result is 
+
+ if (
+    (result > int.MaxValue / 10 || (result == int.MaxValue / 10 && digit > int.MaxValue % 10)) ||
+    (result < int.MinValue / 10 || (result == int.MinValue / 10 && digit > int.MinValue % 10))
+    )
+    {
+        return 0;
+    }
