@@ -1,0 +1,1 @@
+Trick is to use Djikstra Algorithm and use SortedSet with (TotalOriginTimeSoFar + NodeTime , Nodeid)
