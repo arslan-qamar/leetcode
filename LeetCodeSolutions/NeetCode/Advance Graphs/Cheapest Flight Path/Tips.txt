@@ -1,0 +1,14 @@
+The trick is same to use Djikstra Algorithm with minHeap.Add((stop.Cost + nextStop.Price, nextStop.Node, stop.hops + 1));
+
+
+Another approach is to use Bellman Ford Algorithm where we go through all the edges 0 to k (inclusive) times and have a prices[] and tmp[]
+for 0 to k
+	tmp = clone(prices)
+	for each edge
+		Skip if prices[s] == int.MaxInt
+		tmp[d] = Min(tmp[d], prices[s] + p)
+	prices = tmp
+
+
+	TimeComplexity O(E.K)
+	Space O(1)

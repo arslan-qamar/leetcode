@@ -1,0 +1,5 @@
+Ideal List :  https://growwithanyone.medium.com/mastering-data-structures-and-algorithms-a-step-by-step-guide-for-effective-learning-e4ba614776fa
+BFS DFS for Trees , Graphs 
+Prims Algorithm
+Djikstra Algorithm 
+BellmanFord Algorithm
