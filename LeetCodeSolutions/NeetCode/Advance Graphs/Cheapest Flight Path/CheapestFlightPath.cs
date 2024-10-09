@@ -73,6 +73,7 @@
                 if(stop.Node == dst)
                 {
                     cost = Math.Min(cost, stop.Cost);
+                    break;
                 }
                 
                 if (stop.hops <= k)

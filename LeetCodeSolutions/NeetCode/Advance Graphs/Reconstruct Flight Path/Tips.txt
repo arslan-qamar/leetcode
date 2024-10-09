@@ -1,0 +1,7 @@
+The trick is to create the adjList and then sort the stops for each From : Stops(sorted)
+
+Now we do a modified Dfs where remove the next stop from the adjList and do Dfs and also do Dfs with leftover ones if any.
+
+The iteranary is reversed and the count should be  iternary.Count == tickets.Count + 1
+
+CRAM IT :/

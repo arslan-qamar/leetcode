@@ -1,0 +1,12 @@
+This is pretty similar to a common Djikstra algorithm , 
+the only trick is to add the Max(curr.cost, grid[r][c]) to the minHeap for the 4 grid neighbours which can 
+be added easily using the directions[][] array in a foreach with if base case :  
+
+int[][] directions = new int[][] {
+
+            new int[]{1, 0 },
+            new int[] {-1, 0 },
+            new int[] {0, 1 },
+            new int[] {0, -1 }
+
+            };
