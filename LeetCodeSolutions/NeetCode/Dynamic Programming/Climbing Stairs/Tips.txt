@@ -1,0 +1,10 @@
+Can be solved using DFS but 
+the real trick is to start from end-2 
+and update the one and two as : 
+
+temp = one
+one = one + two
+two = temp
+
+return one
+
