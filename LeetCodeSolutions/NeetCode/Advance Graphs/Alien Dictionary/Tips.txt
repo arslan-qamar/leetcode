@@ -1,0 +1,36 @@
+Aliens are weird so is this question.
+
+Tricks : 
+
+Create adjList with empty nodes for all char in each words (iterate over each word char in the list)
+
+Now get W1 and W2
+
+If the W1 > W2 and W1.SubString(minLength) == W2.SubString(minLength) this is invalid case we return "";
+
+Otherwise at the first character diff of W1 and W2 we add the entry to adjList[c].Add(W2.CharAt(i))
+
+Now we do a PostOrder DFS on all keys in adjList 
+
+foreach (var c in adjList)
+{
+    if(Dfs(c.Key))
+    {
+        return "";
+    }
+
+}
+
+Dictionary<char,bool> visited
+List<char> result
+
+if visited contains c then return visited[c] which can be flase if its not seen before in this path or true in case of cycle
+
+we add the char to visited[c] = true
+
+Visit the neighbours first (if neighbour already visited then return true to signal cycle)
+
+
+Add c to result (reverse the result in main return as its is created in reverse order)
+mark visited[c] as false for current path
+return false as no cycle detected
