@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
-using FluentAssertions.Equivalency;
+using LeetCodeSolutions.NeetCode.Graphs;
+using LeetCodeSolutions.NeetCode.Graphs.Clone_Graph;
 using Newtonsoft.Json;
-using System.Text.Json;
 
-namespace LeetCodeSolutions.NeetCode.Graphs.Clone_Graph.Tests
+namespace Clone_Graph.Tests
 {
     [TestClass()]
     public class CloneGraphsTests
@@ -29,7 +29,7 @@ namespace LeetCodeSolutions.NeetCode.Graphs.Clone_Graph.Tests
             CloneGraphs.CloneGraph(node1).Should().BeEquivalentTo(node11);
 
 
-            EquivalencyAssertionOptions options = new EquivalencyAssertionOptions()
+            FluentAssertions.Equivalency.EquivalencyAssertionOptions options = new FluentAssertions.Equivalency.EquivalencyAssertionOptions()
                 .IgnoringCyclicReferences().RespectingRuntimeTypes().ComparingByMembers<Node>();
 
             node2.neighbors.Add(node1);

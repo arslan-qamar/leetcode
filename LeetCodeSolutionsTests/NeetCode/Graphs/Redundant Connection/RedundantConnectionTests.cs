@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
+using LeetCodeSolutions.NeetCode.Graphs.Redundant_Connection;
 
-namespace LeetCodeSolutions.NeetCode.Graphs.Redundant_Connection.Tests
+namespace Redundant_Connection.Tests
 {
     [TestClass()]
     public class RedundantConnectionTests
