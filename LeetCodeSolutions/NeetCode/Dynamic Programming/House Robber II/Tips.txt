@@ -1,0 +1,12 @@
+The sub problem for this is to take
+
+Max(rob1 + curr, rob2)
+
+where
+rob2 is previous house and rob1 is house previous to rob2
+
+so we can either take rob1 + curr or we skip curr and only take rob2.
+
+
+The only trick is to do two pass on the input one with first...nums.Length - 1 element 
+and the other with 2...Last elements
