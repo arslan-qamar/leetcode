@@ -3,6 +3,7 @@
 ################################################################################
 
 /LeetCodeSolutions/.vs/*
+/LeetCodeSolutions/.idea/*
 /LeetCodeSolutions/bin
 /LeetCodeSolutions/obj
 /LeetCodeSolutionsTests/obj
